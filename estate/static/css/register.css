@@ -1,0 +1,53 @@
+@import url(default.css);
+body #header {
+  width: 900px;
+  height: 60px;
+  margin: 0 auto;
+  border-bottom: 3px solid green;
+}
+body #blc_title {
+  width: 900px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-size: 20px;
+  line-height: 160px;
+  border-bottom: 1px solid gray;
+}
+body #blc_title h2, body #blc_title h6 {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+}
+body #blc_title h6 {
+  width: 180px;
+}
+body #register_form {
+  width: 900px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 14px;
+}
+body #register_form .account_info input, body #register_form .psw_info input {
+  width: 300px;
+  height: 35px;
+  border: 1px solid green;
+}
+body #register_form .psw_info, body #register_form .service_info {
+  margin: 30px 0px;
+}
+body #register_form .service_info span {
+  color: green;
+}
+body #register_form .login_button input {
+  width: 300px;
+  height: 40px;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 35px;
+  text-align: center;
+  background: url("../images/btn_bg.png") repeat-x;
+  color: #fff;
+  cursor: pointer;
+}

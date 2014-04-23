@@ -1,0 +1,5 @@
+this folder is designed for widget template, example:
+
+<div>
+    <?php echo $myData; ?>
+</div>

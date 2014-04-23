@@ -1,0 +1,5 @@
+this folder is designed for panel template, example:
+
+<div>
+    <?php echo $myData; ?>
+</div>

@@ -1,0 +1,65 @@
+@import "default.css";
+
+$width: 900px;
+$margin: 0 auto;
+
+body {
+	#header {
+		width: $width;
+		height: 60px;
+		margin: $margin;
+		border-bottom: 3px solid green;
+	}
+	#blc_title {
+		width: $width;
+		height: 100px;
+		margin: $margin;
+		padding: 0 20px;
+		font-size: 20px;
+		line-height: 160px;
+		border-bottom: 1px solid gray;
+		h2, h6 {
+			display: inline-block;
+			width: 200px;
+			height: 100px;
+		}
+		h6 {
+			width: 180px; 
+		}
+	}
+	#register_form {
+		width: $width;
+		height: auto;
+		margin: 0 auto;
+		padding: 20px;
+		font-size: 14px;
+		.account_info, .psw_info {
+			input {
+				width: 300px;
+				height: 35px;
+				border: 1px solid green;
+			}
+		}
+		.psw_info, .service_info {
+			margin: 30px 0px;
+		}
+		.service_info {
+			span {
+				color: green;
+			}
+		}
+		.login_button {
+			input {
+				width: 300px;
+				height: 40px;
+				font-size: 26px;
+				font-weight: bold;
+				line-height: 35px;
+				text-align: center;
+				background: url("../images/btn_bg.png") repeat-x;
+				color: #fff;
+				cursor: pointer;
+			}
+		}
+	}
+}
