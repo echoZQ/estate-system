@@ -15,9 +15,9 @@ class RegisterController extends Controller {
     public function doRegister() {
 	    	$account = $_POST['account'];
 	    	$password = $_POST['password'];
-	    	$isRead = $_POST['checkRead'];
+	    	//$isRead = $_POST['checkRead'];
 	    	
-	    $check = $this->checkRegister($account, $password, $isRead);
+	    $check = $this->checkRegister($account, $password);
     		
 	    if($check) {
 	    		$userModel = new UserModel();
@@ -37,7 +37,7 @@ class RegisterController extends Controller {
 	    }
     }
     
-    private function checkRegister($account, $password, $isRead) {
+    private function checkRegister($account, $password) {
     		self::_setExceptionHandler('HFB\app\exception\JSONExceptionHandler');
     	
     		if("" == $account) {
@@ -53,9 +53,9 @@ class RegisterController extends Controller {
     		if("" == $password) {
     			throw new Exception("密码不能为空!");
     		}
-    		if($isRead == "false"){
-    			throw new Exception("请先阅读服务条款");
-    		}
+//     		if($isRead != "on"){
+//     			throw new Exception("请先阅读服务条款");
+//     		}
     		
     		return TRUE;
     }

@@ -5,6 +5,9 @@ body #header {
   height: 60px;
   margin: 0 auto;
   border-bottom: 3px solid green;
+  font-size: 36px;
+  line-height: 60px;
+  color: green;
 }
 body #login_form {
   width: 550px;

@@ -12,3 +12,7 @@ ul li {
 a {
   text-decoration: none;
 }
+
+.error {
+  color: red;
+}
