@@ -28,7 +28,7 @@
 				<input type="checkbox" id="checkRead" name="checkRead"> 我已阅读并接受《<span>服务条款</span>》
 			</div>
 			<div class="login_button">
-				<input type="submit" value="注册">
+				<input type="button" class="register_btn" value="注册">
 			</div>
 		</form>
 	</div>

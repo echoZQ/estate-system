@@ -30,7 +30,7 @@
 				<input type="checkbox" id="remember" name="remember"> 记住密码
 			</div>
 			<div class="login_button">
-				<input type="submit" value="登陆">
+				<input type="button" class="login_btn" value="登陆">
 			</div>
 		</form>
 	</div>

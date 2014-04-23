@@ -26,15 +26,15 @@ class LoginController extends Controller {
     		if(false != $res) {
     			if($res['password'] == md5($password)) {
     				$_SESSION['username'] = $account;
-    				return self::_genJSONResult(['code' => 0, 'msg' => '登陆成功!']);
-    				if($remember == "on") {
+    				return self::_genJSONResult(['code' => 0, 'msg' => '登陆成功!', 'redirect' => '/default/index']);
+    				if($remember == "true") {
     					$this->response->setCookie('username', $account, "30days");
     				}
     			}else {
-    				return  self::_genJSONResult(['code' => -1, 'msg' => '密码错误!']);
+    				return  self::_genJSONResult(['code' => -1, 'msg' => '密码错误!', 'redirect' => '/login/index']);
     			}
     		}else {
-    			return self::_genJSONResult(['code' => -1, 'msg' => '该用户不存在!']);
+    			return self::_genJSONResult(['code' => -1, 'msg' => '该用户不存在!', 'redirect' => '/login/index']);
     		}
     }
     

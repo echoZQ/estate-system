@@ -28,18 +28,18 @@ class RegisterController extends Controller {
 	    		
 	    		$res = $userModel->add($data);
 	    		if($res) {
-	    			return self::_genJSONResult(['code' => 0,"msg" => "注册成功!"]);
+	    			return self::_genJSONResult(['code' => 0,'msg' => "注册成功!", 'redirect' => '/default/index']);
 	    		}else {
-	    			return self::_genJSONResult(['code' => -1, "msg" => "注册失败"]);
+	    			return self::_genJSONResult(['code' => -1,'msg' => "注册失败!", 'redirect' => '/register/index']);
 	    		}
 	    }else {
-	    		return self::_genJSONResult(['code' => -1, "msg" => "注册失败"]);
+	    		return self::_genJSONResult(['code' => -1, 'msg' => "注册失败!", 'redirect' => '/register/index']);
 	    }
     }
     
     private function checkRegister($account, $password, $isRead) {
     		self::_setExceptionHandler('HFB\app\exception\JSONExceptionHandler');
-    		
+    	
     		if("" == $account) {
     			throw new Exception("账号不能为空!");
     		}else {
@@ -53,7 +53,7 @@ class RegisterController extends Controller {
     		if("" == $password) {
     			throw new Exception("密码不能为空!");
     		}
-    		if("on" != $isRead){
+    		if($isRead == "false"){
     			throw new Exception("请先阅读服务条款");
     		}
     		
