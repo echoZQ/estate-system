@@ -263,7 +263,7 @@ $.extend($.validator, {
 	},
 
 	messages: {
-		required: "&nbsp",
+		required: "不能为空!",
 		remote: "Please fix this field.",
 		email: "&nbsp;",
 		url: "Please enter a valid URL.",

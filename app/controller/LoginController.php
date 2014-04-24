@@ -47,7 +47,7 @@ class LoginController extends Controller {
     		if("" == $password) {
     			throw new Exception("密码不能为空!");
     		}
-    		
+
     		return TRUE;
     }
      

@@ -1,1 +1,133 @@
 @import url(default.css);
+@-webkit-keyframes firstAnimation {
+  from {
+    left: 500px;
+  }
+
+  to {
+    left: 1900px;
+  }
+}
+
+@-webkit-keyframes secondAnimation {
+  from {
+    left: -400px;
+  }
+
+  to {
+    left: 500px;
+  }
+}
+
+.err_box {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+body #header {
+  width: 900px;
+  height: 60px;
+  margin: 0 auto;
+  border-bottom: 3px solid green;
+  font-size: 36px;
+  line-height: 60px;
+  color: green;
+}
+body #welcome {
+  width: 900px;
+  margin: 0 auto;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+body #welcome i {
+  display: inline-block;
+  margin: 0 35px;
+  width: 220px;
+  height: 1px;
+  background: #dfdfdf;
+  vertical-align: middle;
+}
+body #content {
+  margin-top: 30px;
+  width: 100%;
+  height: 415px;
+  background: url("../images/banner.jpg");
+}
+body #content #estate_form {
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+}
+body #content #estate_form .publish_firststep, body #content #estate_form .publish_secondstep {
+  width: 40%;
+}
+body #content #estate_form .publish_firststep .box, body #content #estate_form .publish_secondstep .box {
+  margin-top: 25px;
+}
+body #content #estate_form .publish_firststep .box .label, body #content #estate_form .publish_secondstep .box .label {
+  width: 150px;
+  font-size: 24px;
+  text-align: right;
+}
+body #content #estate_form .publish_firststep .box input, body #content #estate_form .publish_secondstep .box input {
+  margin-left: 20px;
+  width: 250px;
+  height: 30px;
+}
+body #content #estate_form .publish_firststep .box .type, body #content #estate_form .publish_secondstep .box .type {
+  display: inline-block;
+  margin-left: 20px;
+  width: 62px;
+  height: 35px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 3px;
+  background: green;
+  color: #fff;
+  cursor: pointer;
+}
+body #content #estate_form .publish_firststep .box .isChosed, body #content #estate_form .publish_secondstep .box .isChosed {
+  background: orange;
+}
+body #content #estate_form .publish_firststep .box_hold input, body #content #estate_form .publish_secondstep .box_hold input {
+  width: 54px;
+}
+body #content #estate_form .publish_firststep .btn, body #content #estate_form .publish_secondstep .btn {
+  margin: 0 auto;
+  padding: 20px 125px;
+}
+body #content #estate_form .publish_firststep .btn input, body #content #estate_form .publish_secondstep .btn input {
+  width: 200px;
+  line-height: 35px;
+  font-size: 24px;
+  text-align: center;
+  background: url("../images/btn_bg.png") repeat-x;
+  color: #fff;
+  cursor: pointer;
+}
+body #content #estate_form .publish_firststep {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+body #content #estate_form .publish_secondstep {
+  position: absolute;
+  top: 160px;
+  left: -400px;
+}
+body #content #estate_form .publish_secondstep .face {
+  display: inline-block;
+  margin-left: 20px;
+  width: 62px;
+  height: 35px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 3px;
+  background: green;
+  color: #fff;
+  cursor: pointer;
+}

@@ -6,10 +6,21 @@
  * 2010-06-17 by 刘仁飞
  */
 
-// 用户名字符验证    
+// 用户名字验证    
 jQuery.validator.addMethod("userName", function(value, element) {  
   return this.optional(element) || /^[A-Za-z0-9]{4,20}$/.test(value);   
-}, "4-30个中英文字符或数字");   
+}, "4-20个英文字符或数字");   
+
+//小区名字验证    
+jQuery.validator.addMethod("estateName", function(value, element) {  
+  return this.optional(element) || /^[\u4e00-\u9fa5|A-Za-z]{4,20}$/.test(value);   
+}, "4-20个中英文字符");  
+
+//期望售价验证    
+jQuery.validator.addMethod("isNum", function(value, element) {  
+  return this.optional(element) || /^([0-9]*[1-9][0-9]*)$/.test(value);   
+}, "必须是数字");   
+
 
 // 联系电话(手机/电话皆可)验证   
 jQuery.validator.addMethod("isTel", function(value,element) {   

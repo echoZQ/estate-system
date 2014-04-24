@@ -4,42 +4,93 @@
 <head>
 	<meta charset="UTF-8" />
     <title>房产集中营</title>
-    <link rel="stylesheet" type="text/css" href="/estate/static/css/login.css">
+    <link rel="stylesheet" type="text/css" href="/estate/static/css/publish.css">
 </head>
 <body>
 	<div id="header">
 		房产集中营
 	</div>
-	<div id="login_form">
-		<form id="loginForm" action="/login/doLogin" method="post">
-			<div id="blc_title">
-				<h2>账号登陆</h2>
-				<h6>不是会员?<span><a href="/register/index"> 快速注册</a></span></h6>
-			</div>
-			<div class="account_info">
-				<label>账号:</label><br>
-				<span><input type="text" placeholder="  请输入账号" id="account" name="account" maxlength="20" minlength="4" required="required"></span>
-				<div class="err_box"></div>
-			</div>
-			<div class="psw_info">
-				<label>密码:</label>
-				<label class="forget_psw"><a href="/login/forgetPsw">忘记密码?</a></label>
-				<br>
-				<span><input type="password" placeholder="  请输入密码" id="password" name="password" minlength="6" required="required" /></span>
-				<div class="err_box"></div>
-			</div>
-<!-- 			<div class="remember_info"> -->
-<!-- 				<input type="checkbox" id="remember" name="remember"> 记住密码 -->
-<!-- 			</div> -->
-			<div class="login_button">
-				<input type="submit" value="登陆">
-			</div>
-		</form>
+	<div id="welcome">
+		<h1><i></i>发布房源<i></i></h1>
+	</div> 
+	<div id="content">
+		<div id="estate_form">
+			<form id="publishForm" action="/default/doPublish" method="post">
+				<div class="publish_firststep">
+					<div class="box">
+						<label class="label">发布类型</label>
+						<div class="type isChosed">出售</div>
+						<div class="type">整租</div>
+						<div class="type">合租</div>
+						<input type="hidden" value="出售" id="housetype" name="housetype" />
+					</div>
+					<div class="box">
+						<label class="label">小区名称</label>
+						<input type="text" id="housename" name="housename" required="required" />
+						<div class="err_box"></div>
+					</div>
+					<div class="box">
+						<label class="label">期望售价</label>
+						<input type="text" id="houseprice" name="houseprice" required="required"/>万
+						<div class="err_box"></div>
+					</div>
+					<div class="box box_hold">
+						<label class="label">&nbsp;&nbsp;&nbsp;&nbsp;户型</label>
+						<input type="text" id="shi" name="shi" required="required" /> 室<input type="text" id="ting" name="ting" required="required" /> 厅<input type="text" id="wei" name="wei" required="required" />卫
+						<div class="err_box"></div>
+					</div>
+					<div class="box">
+						<label class="label">&nbsp;&nbsp;&nbsp;&nbsp;面积</label>
+						<input type="text" id="housearea" name="housearea" required="required" />平
+						<div class="err_box"></div>
+					</div>
+					<div class="btn">
+						<input type="button" id="stepone_btn" value="下一步" />
+					</div>
+				</div>
+				
+				<div class="publish_secondstep">
+					<div class="box">
+						<label class="label">&nbsp;&nbsp;&nbsp;&nbsp;楼层</label>
+						<input type="text" id="housefloor" name="housefloor" required="required" />
+						<div class="err_box"></div>
+					</div>
+					<div class="box">
+						<label class="label">&nbsp;&nbsp;&nbsp;&nbsp;朝向</label>
+						<div class="face isChosed">朝南</div>
+						<div class="face">朝北</div>
+						<input type="hidden" value="朝南" id="houseface" name="houseface" required="required" />
+						<div class="err_box"></div>
+					</div>
+					<div class="box">
+						<label class="label">详细地址</label>
+						<input type="text" id="houseaddress" name="houseaddress" />
+					</div>
+					<div class="box">
+						<label class="label">建造时间</label>
+						<input type="text" id="buildtime" name="buildtime" />
+					</div>
+					<div class="box">
+						<label class="label">&nbsp;&nbsp;联系人</label>
+						<input type="text" id="ownername" name="ownername" required="required" />
+						<div class="err_box"></div>
+					</div>
+					<div class="box">
+						<label class="label">联系电话</label>
+						<input type="text" id="ownermobile" name="ownermobile" required="required" />
+						<div class="err_box"></div>
+					</div>
+					<div class="btn">
+						<input type="submit" id="steptwo_btn" value="发布" />
+					</div>
+				</div>
+			</form>
+		</div>
 	</div>
 </body>
 <script type="text/javascript" src="/estate/static/javascript/lib/jquery-2.0.3.js"></script>
 <script type="text/javascript" src="/estate/static/javascript/lib/jquery.form.js"></script>
 <script type="text/javascript" src="/estate/static/javascript/lib/jquery.validate.js"></script>
 <script type="text/javascript" src="/estate/static/javascript/lib/validate-ex.js"></script>
-<script type="text/javascript" src="/estate/static/javascript/login.js"></script>
+<script type="text/javascript" src="/estate/static/javascript/publish.js"></script>
 </html>

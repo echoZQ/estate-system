@@ -1,5 +1,133 @@
 @import "default.css";
 
+$width: 900px;
+$margin: 0 auto;
+
+
+@-webkit-keyframes firstAnimation
+{
+	from {left: 500px;}
+	to {left: 1900px;}
+}
+@-webkit-keyframes secondAnimation
+{
+	from {left: -400px;}
+	to {left: 500px;}
+}
+.err_box {
+	display: inline-block;
+	margin-left: 30px;
+	font-size: 16px;
+}
+
 body {
-	
+	#header {
+		width: $width;
+		height: 60px;
+		margin: $margin;
+		border-bottom: 3px solid green;
+		font-size: 36px;
+		line-height: 60px;
+		color: green;
+	}
+	#welcome {
+		width: $width;
+		margin: $margin;
+		height: 80px;
+		text-align: center;
+		line-height: 80px;
+		i {
+			display: inline-block;
+			margin: 0 35px;
+			width: 220px;
+			height: 1px;
+			background: #dfdfdf;
+			vertical-align: middle;
+		}
+	}
+	#content {
+		margin-top: 30px;
+		width: 100%;
+		height: 415px;
+		background: url('../images/banner.jpg');
+		#estate_form {
+			width: $width;
+			height: 100%;
+			margin: $margin;
+			.publish_firststep, .publish_secondstep {
+				width: 40%;
+				.box {
+					margin-top: 25px;
+					.label {
+						width: 150px;
+						font-size: 24px;
+						text-align: right;
+					}
+					input {
+						margin-left: 20px;
+						width: 250px;
+						height: 30px;
+					}
+					.type {
+						display: inline-block;
+						margin-left: 20px;
+						width: 62px;
+						height: 35px;
+						font-size: 24px;
+						text-align: center;
+						line-height: 35px;
+						border-radius: 3px;
+						background: green;
+						color: #fff;
+						cursor: pointer;
+						
+					}
+					.isChosed {
+						background: orange;
+					}
+				}
+				.box_hold {
+					input {
+						width: 54px;
+					}
+				}
+				.btn {
+					margin: $margin;
+					padding: 20px 125px;
+					input {
+						width: 200px;
+						line-height: 35px;
+						font-size: 24px;
+						text-align: center;
+						background: url("../images/btn_bg.png") repeat-x;
+						color: #fff;
+						cursor: pointer;
+					}
+				}
+			}
+			.publish_firststep {
+				position: absolute;
+				top: 200px;
+				left: 500px;
+			}
+			.publish_secondstep {
+				position: absolute;
+				top: 160px;
+				left: -400px;
+				.face {
+					display: inline-block;
+					margin-left: 20px;
+					width: 62px;
+					height: 35px;
+					font-size: 24px;
+					text-align: center;
+					line-height: 35px;
+					border-radius: 3px;
+					background: green;
+					color: #fff;
+					cursor: pointer;
+				}
+			}
+		}
+	}
 }
