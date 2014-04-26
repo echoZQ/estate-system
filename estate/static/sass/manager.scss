@@ -1,0 +1,78 @@
+@import "default.css";
+
+$width: 900px;
+$margin: 0 auto;
+
+@mixin border-radius($values) {
+  -webkit-border-radius: $values;
+     -moz-border-radius: $values;
+          border-radius: $values;
+}
+
+
+body {
+	#header {
+		width: $width;
+		height: 60px;
+		margin: $margin;
+		border-bottom: 3px solid green;
+		font-size: 36px;
+		line-height: 60px;
+		color: green;
+	}
+	#welcome {
+		width: $width;
+		margin: $margin;
+		height: 80px;
+		text-align: center;
+		line-height: 80px;
+		i {
+			display: inline-block;
+			margin: 0 35px;
+			width: 220px;
+			height: 1px;
+			background: #dfdfdf;
+			vertical-align: middle;
+		}
+	}
+	#content {
+		width: $width;
+		height: 600px;
+		margin: $margin; 
+		padding: 30px 0px;
+		background:url('../images/manager_bg.jpg');
+		.notice_info {
+			width: 50%;
+			font-size: 22px;
+		}
+		input {
+			margin-top: 30px;
+			width: 200px;
+			line-height: 35px;
+			font-size: 24px;
+			text-align: center;
+			background: url("../images/btn_bg.png") repeat-x;
+			color: #fff;
+			cursor: pointer;
+		}
+		table {
+			border: 1px solid green;
+			th {
+				font-size: 24px;
+				font-weight: bold;
+				background: green;
+			}
+			td {
+				height: 30px;
+				text-align: center;
+				span {
+					width:50px;
+					margin-left: 5px;
+					border-radius: 2px;
+					background: orange;
+					color: #fff;
+				}
+			}
+		}
+	}
+}

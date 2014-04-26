@@ -60,6 +60,7 @@ var publishForm = $('#publishForm');
 	
 	var success = function(data) {
 		 if (data.code == '0') {
+			alert(data.msg);
 		 	window.location = data.redirect;
 		 } else {
 		 	alert(data.msg);

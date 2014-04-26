@@ -41,7 +41,7 @@ body #content {
 body #content #menu {
   background: green;
   height: 50px;
-  padding: 0px 40px;
+  padding: 0px 20px;
   border-radius: 2px;
 }
 body #content #menu ul {
@@ -71,6 +71,13 @@ body #content #menu span {
   text-align: right;
   line-height: 60px;
   color: #fff;
+}
+body #content #menu span img {
+  position: relative;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
 body #public_info {
   position: fixed;

@@ -20,6 +20,10 @@ class DefaultController extends Controller {
     }
     
     public function doPublish() {
+	    	if(!isset($_SESSION['username'])) {
+	    		return self::_alertRedirect("请先登录!","/login/index");
+	    	}
+	    	
     		$map['username'] = $_SESSION['username'];
     		
     		$userModel = new UserModel();
@@ -44,9 +48,9 @@ class DefaultController extends Controller {
     		$data['sellerId'] = $uid;
     		$data['type'] = $housetype;
     		$data['estateName'] = $housename;
-    		$data['sellPrice'] = $houseprice;
+    		$data['sellPrice'] = $houseprice."万";
     		$data['houseHold'] = $shi."室".$ting."厅".$wei."卫";
-    		$data['houseArea'] = $housearea;
+    		$data['houseArea'] = $housearea."平米";
     		$data['houseFloor'] = $housefloor;
     		$data['houseFaceTo'] = $houseface;
     		$data['address'] = $houseaddress;
@@ -62,7 +66,7 @@ class DefaultController extends Controller {
     		$res = $houseinfoModel->add($data);
     		
     		if($res) {
-    			return self::_genJSONResult(['code' => 0, "msg" => "房源信息发布成功!", 'redirect' => "/default/index"]);
+    			return self::_genJSONResult(['code' => 0, "msg" => "房源信息发布成功,审核通过后即可发布，如需补充信息，请去管理房源页!", 'redirect' => "/default/index"]);
     		}else {
     			return self::_genJSONResult(['code' => -1, "msg" => "房源信息发布失败!", 'redirect' => "/default/publish"]);
     		}

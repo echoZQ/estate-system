@@ -1,0 +1,88 @@
+@import "default.css";
+
+$width: 900px;
+$margin: 0 auto;
+
+@mixin border-radius($values) {
+  -webkit-border-radius: $values;
+     -moz-border-radius: $values;
+          border-radius: $values;
+}
+
+.err_box {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 16px;
+}
+
+body {
+	#header {
+		width: $width;
+		height: 60px;
+		margin: $margin;
+		border-bottom: 3px solid green;
+		font-size: 36px;
+		line-height: 60px;
+		color: green;
+	}
+	#welcome {
+		width: $width;
+		margin: $margin;
+		height: 80px;
+		text-align: center;
+		line-height: 80px;
+		i {
+			display: inline-block;
+			margin: 0 35px;
+			width: 220px;
+			height: 1px;
+			background: #dfdfdf;
+			vertical-align: middle;
+		}
+	}
+	#content {
+		width: $width;
+		margin: $margin;
+		height: 600px;
+		padding: 20px 40px;
+		background:url('../images/manager_bg.jpg');
+		.update_box {
+			width: 600px;
+			.box {
+				margin-top: 15px;
+				font-size: 22px;
+				.label {
+					width: 150px;
+					font-size: 24px;
+					text-align: right;
+				}
+				input {
+					margin-left: 20px;
+					width: 250px;
+					height: 30px;
+					font-size: 16px;
+				}
+			}
+			.box_btn {
+				margin-top: 30px;
+				input {
+					width: 200px;
+					height: 40px;
+					font-size: 26px;
+					font-weight: bold;
+					line-height: 35px;
+					text-align: center;
+					background: url("../images/btn_bg.png") repeat-x;
+					color: #fff;
+					cursor: pointer;
+				}
+			}
+		}
+		#uploader {
+			width: 350px;
+			position: absolute;
+			top: 200px;
+			left: 52%;
+		}
+	}
+}

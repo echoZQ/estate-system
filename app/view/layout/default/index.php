@@ -24,7 +24,7 @@
 			 --><li class="rent_page">租房</li>
 			</ul>
 			<?php if(isset($_SESSION['username'])) {?>
-			<span>欢迎您: <?php echo $_SESSION['username'];?></span>
+			<span>欢迎您: <?php echo $_SESSION['username']."  ";?><a href="/manager/index"><img alt="管理房源" title="管理房源" src="/estate/static/images/home.png"></a></span>
 			<?php }?>
 		</div>
 	</div>

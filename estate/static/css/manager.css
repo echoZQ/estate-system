@@ -1,0 +1,65 @@
+@import url(default.css);
+body #header {
+  width: 900px;
+  height: 60px;
+  margin: 0 auto;
+  border-bottom: 3px solid green;
+  font-size: 36px;
+  line-height: 60px;
+  color: green;
+}
+body #welcome {
+  width: 900px;
+  margin: 0 auto;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+body #welcome i {
+  display: inline-block;
+  margin: 0 35px;
+  width: 220px;
+  height: 1px;
+  background: #dfdfdf;
+  vertical-align: middle;
+}
+body #content {
+  width: 900px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 30px 0px;
+  background: url("../images/manager_bg.jpg");
+}
+body #content .notice_info {
+  width: 50%;
+  font-size: 22px;
+}
+body #content input {
+  margin-top: 30px;
+  width: 200px;
+  line-height: 35px;
+  font-size: 24px;
+  text-align: center;
+  background: url("../images/btn_bg.png") repeat-x;
+  color: #fff;
+  cursor: pointer;
+}
+body #content table {
+  border: 1px solid green;
+}
+body #content table th {
+  font-size: 24px;
+  font-weight: bold;
+  background: green;
+}
+body #content table td {
+  height: 30px;
+  text-align: center;
+}
+body #content table td span {
+  width: 50px;
+  margin-left: 5px;
+  border-radius: 2px;
+  background: orange;
+  color: #fff;
+}

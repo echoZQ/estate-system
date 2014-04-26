@@ -1,0 +1,76 @@
+@import url(default.css);
+.err_box {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+body #header {
+  width: 900px;
+  height: 60px;
+  margin: 0 auto;
+  border-bottom: 3px solid green;
+  font-size: 36px;
+  line-height: 60px;
+  color: green;
+}
+body #welcome {
+  width: 900px;
+  margin: 0 auto;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+body #welcome i {
+  display: inline-block;
+  margin: 0 35px;
+  width: 220px;
+  height: 1px;
+  background: #dfdfdf;
+  vertical-align: middle;
+}
+body #content {
+  width: 900px;
+  margin: 0 auto;
+  height: 600px;
+  padding: 20px 40px;
+  background: url("../images/manager_bg.jpg");
+}
+body #content .update_box {
+  width: 600px;
+}
+body #content .update_box .box {
+  margin-top: 15px;
+  font-size: 22px;
+}
+body #content .update_box .box .label {
+  width: 150px;
+  font-size: 24px;
+  text-align: right;
+}
+body #content .update_box .box input {
+  margin-left: 20px;
+  width: 250px;
+  height: 30px;
+  font-size: 16px;
+}
+body #content .update_box .box_btn {
+  margin-top: 30px;
+}
+body #content .update_box .box_btn input {
+  width: 200px;
+  height: 40px;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 35px;
+  text-align: center;
+  background: url("../images/btn_bg.png") repeat-x;
+  color: #fff;
+  cursor: pointer;
+}
+body #content #uploader {
+  width: 350px;
+  position: absolute;
+  top: 200px;
+  left: 52%;
+}

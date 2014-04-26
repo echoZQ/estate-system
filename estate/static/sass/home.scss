@@ -51,7 +51,7 @@ body {
 		#menu {
 			background: green;
 			height: 50px;
-			padding: 0px 40px;
+			padding: 0px 20px;
 			border-radius: 2px;
 			ul {
 				display: block;
@@ -80,6 +80,13 @@ body {
 				text-align: right;
 				line-height: 60px;
 				color: #fff;
+				img {
+					position: relative;
+					top: 5px;
+					width:40px;
+					height: 40px;
+					cursor: pointer;
+				}
 			}
 		}
 	}
