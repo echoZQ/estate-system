@@ -66,7 +66,7 @@ class DefaultController extends Controller {
     		$res = $houseinfoModel->add($data);
     		
     		if($res) {
-    			return self::_genJSONResult(['code' => 0, "msg" => "房源信息发布成功,审核通过后即可发布，如需补充信息，请去管理房源页!", 'redirect' => "/default/index"]);
+    			return self::_genJSONResult(['code' => 0, "msg" => "房源信息发布成功,审核通过后即可发布，如需补充信息，请去管理房源页!", 'redirect' => "/manager/index"]);
     		}else {
     			return self::_genJSONResult(['code' => -1, "msg" => "房源信息发布失败!", 'redirect' => "/default/publish"]);
     		}

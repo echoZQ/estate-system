@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8" />
     <title>房产集中营</title>
-	<link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/themes/smoothness/jquery-ui.min.css" media="screen">
+	<link type="text/css" rel="stylesheet" href="/estate/static/javascript/js/jquery.ui.plupload/css/jquery-ui.min.css" media="screen">
 	<link type="text/css" rel="stylesheet" href="/estate/static/javascript/js/jquery.ui.plupload/css/jquery.ui.plupload.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/estate/static/css/update.css">
 </head>

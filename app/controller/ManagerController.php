@@ -80,6 +80,7 @@ class ManagerController extends Controller {
 
     	public function uploadFile() {
     		$id = $_GET['id'];
+    		$map['id'] = $id;
     		
     		$file = $_FILES["file"]["name"];
     		$_FILES["file"]["name"] = $_SESSION['username'].$file;
@@ -94,6 +95,19 @@ class ManagerController extends Controller {
     			
     			$houseInfoModel = new HouseinfoModel();
     			
+    			$res = $houseInfoModel->getByMap($map);
+    			$img = $res['img'];
+    			
+    			if("" != $img) {
+    				$imgArray = explode(";",$img);
+    				if(count($imgArray) < 3) {
+    					array_push($imgArray, ";upload/" . $_FILES["file"]["name"]).";";
+    				}
+    				$data['img'] = implode("", $imgArray);
+    			}else {
+    				$data['img'] = "upload/" . $_FILES["file"]["name"].";";
+    			}
+    
     			$res = $houseInfoModel->update($data, $map);
     		}
     	}
