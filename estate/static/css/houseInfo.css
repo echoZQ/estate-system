@@ -1,0 +1,56 @@
+#houseInfoList {
+  width: 990px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+#houseInfoList #houseBox {
+  width: 700px;
+  border: 1px solid #efefef;
+}
+#houseInfoList #houseBox .house {
+  width: 700px;
+  height: 240px;
+  padding: 0px 0px 20px 0px;
+  border-bottom: 2px dashed #efefef;
+}
+#houseInfoList #houseBox .house:hover {
+  background: pink;
+}
+#houseInfoList #houseBox .house .houseImg {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 20px 0px 0px 30px;
+}
+#houseInfoList #houseBox .house .houseTextInfo {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 20px 0px 0px 50px;
+}
+#houseInfoList #houseBox .house .houseTextInfo .name {
+  width: 100%;
+  height: 50px;
+  font-size: 22px;
+  line-height: 50px;
+  color: orange;
+}
+#houseInfoList #houseBox .house .houseTextInfo .name a {
+  color: orange;
+}
+#houseInfoList #houseBox .house .houseTextInfo .text {
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+}
+#houseInfoList #houseBox .house .avgPrice {
+  float: left;
+  width: 220px;
+  height: 200px;
+  margin: 20px 0px 0px 0px;
+  line-height: 200px;
+}
+#houseInfoList #houseBox .house .avgPrice span {
+  font-size: 26px;
+  color: orange;
+}

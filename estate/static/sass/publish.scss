@@ -11,9 +11,20 @@ $margin: 0 auto;
 }
 @-webkit-keyframes secondAnimation
 {
-	from {left: -400px;}
+	from {left: -500px;}
 	to {left: 500px;}
 }
+@-webkit-keyframes thirdAnimation
+{
+	from {left: 1900px;}
+	to {left: 500px;}
+}
+@-webkit-keyframes forthAnimation
+{
+	from {left: 500px;}
+	to {left: -500px;}
+}
+
 .err_box {
 	display: inline-block;
 	margin-left: 30px;
@@ -21,15 +32,6 @@ $margin: 0 auto;
 }
 
 body {
-	#header {
-		width: $width;
-		height: 60px;
-		margin: $margin;
-		border-bottom: 3px solid green;
-		font-size: 36px;
-		line-height: 60px;
-		color: green;
-	}
 	#welcome {
 		width: $width;
 		margin: $margin;
@@ -95,7 +97,7 @@ body {
 					margin: $margin;
 					padding: 20px 125px;
 					input {
-						width: 200px;
+						width: 100px;
 						line-height: 35px;
 						font-size: 24px;
 						text-align: center;
@@ -126,6 +128,14 @@ body {
 					background: green;
 					color: #fff;
 					cursor: pointer;
+				}
+				.box_floor {
+					input {
+						width: 100px;
+					}
+					span {
+						font-size: 30px;
+					}
 				}
 			}
 		}

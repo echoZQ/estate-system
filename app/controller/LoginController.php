@@ -50,5 +50,11 @@ class LoginController extends Controller {
 
     		return TRUE;
     }
+    
+    public function loginOut() {
+    		$_SESSION['username'] = NULL;
+    		
+    		self::_redirect('/default/index');
+    }
      
 }

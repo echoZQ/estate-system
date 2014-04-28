@@ -1,16 +1,17 @@
 $(function() {
+	$('#housename').focus();
+	
 	$('#stepone_btn').click(function() {
 		$('.publish_firststep').css("animation","firstAnimation 1s forwards");
 		$('.publish_secondstep').css("animation","secondAnimation 1s forwards");
+		$('.publish_firststep').css("display", "none");
+		$('#housefloor').focus();
 	})
 	
-	$('.type').bind('click', function() {
-		var text = $(this).text();
-		$('.type').each(function() {
-			$(this).removeClass("isChosed");
-		})
-		$(this).addClass("isChosed");
-		$('#housetype').attr("value", text);
+	$('#back_btn').click(function() {
+		$('.publish_firststep').css("display", "block");
+		$('.publish_firststep').css("animation","thirdAnimation 1s forwards");
+		$('.publish_secondstep').css("animation","forthAnimation 1s forwards");
 	})
 	
 	$('.face').bind('click', function() {
@@ -47,6 +48,12 @@ var publishForm = $('#publishForm');
 		    		isNum: true
 		    },
 		    wei: {
+		    		isNum: true
+		    },
+		    housefloor: {
+		    		isNum: true
+		    },
+		    housefloor1: {
 		    		isNum: true
 		    },
 		    housearea: {

@@ -5,15 +5,6 @@
   font-size: 16px;
 }
 
-body #header {
-  width: 900px;
-  height: 60px;
-  margin: 0 auto;
-  border-bottom: 3px solid green;
-  font-size: 36px;
-  line-height: 60px;
-  color: green;
-}
 body #welcome {
   width: 900px;
   margin: 0 auto;

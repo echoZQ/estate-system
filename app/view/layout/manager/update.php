@@ -11,6 +11,9 @@
 <body>
 	<div id="header">
 		房产集中营
+		<?php if(isset($_SESSION['username'])) {?>
+			<span>欢迎您: <?php echo $_SESSION['username']."  ";?><a href="/manager/index"><img alt="管理房源" title="管理房源" src="/estate/static/images/home.png"></a></span>
+		<?php }?>
 	</div>
 	<div id="welcome">
 		<h1><i></i>我的房源<i></i></h1>

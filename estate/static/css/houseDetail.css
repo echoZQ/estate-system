@@ -1,0 +1,61 @@
+@import url(default.css);
+#detailBox {
+  width: 900px;
+  height: 700px;
+  margin: 0 auto;
+  padding: 50px 0px 20px 20px;
+  background: url("../images/detail_bg.jpg") no-repeat;
+}
+#detailBox .img_box {
+  width: 550px;
+  height: 440px;
+  padding: 20px 0px 0px 20px;
+}
+#detailBox .img_box img {
+  width: 500px;
+  height: 400px;
+}
+#detailBox .demo-4 {
+  width: 500px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+#detailBox table {
+  margin-top: 50px;
+}
+#detailBox table tr {
+  border: 1px solid #efefef;
+  height: 30px;
+}
+#detailBox table tr td {
+  border: 1px solid #efefef;
+}
+#detailBox table .even {
+  width: 150px;
+  padding-left: 50px;
+  font-size: 18px;
+  background: #efefef;
+}
+#detailBox #detailText {
+  position: absolute;
+  top: 350px;
+  left: 820px;
+  width: 300px;
+  height: 120px;
+}
+#detailBox #detailText .even {
+  width: 120px;
+  padding-left: 20px;
+  font-size: 18px;
+  background: #efefef;
+}
+
+.image-preview {
+  padding-bottom: 20px;
+}
+.image-preview img {
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+}

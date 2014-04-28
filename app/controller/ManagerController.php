@@ -100,12 +100,12 @@ class ManagerController extends Controller {
     			
     			if("" != $img) {
     				$imgArray = explode(";",$img);
-    				if(count($imgArray) < 3) {
-    					array_push($imgArray, ";upload/" . $_FILES["file"]["name"]).";";
+    				if(count($imgArray) < 8) {
+    					array_push($imgArray, "/upload/" . $_FILES["file"]["name"]);
     				}
-    				$data['img'] = implode("", $imgArray);
+    				$data['img'] = implode(";", $imgArray);
     			}else {
-    				$data['img'] = "upload/" . $_FILES["file"]["name"].";";
+    				$data['img'] = "/upload/" . $_FILES["file"]["name"];
     			}
     
     			$res = $houseInfoModel->update($data, $map);

@@ -10,7 +10,12 @@ use HFB\app\model\db\UserModel;
 class DefaultController extends Controller {
 
     public function index() {
-    		
+	    	$houseInfoModel = new HouseinfoModel();
+	    	
+	    	$map['type'] = "出售";
+	    	$res = $houseInfoModel->getListByMap($map);
+	    	
+	    	return self::_bindValue("houseInfo", $res);
     }
     
     public function publish() {
@@ -38,6 +43,7 @@ class DefaultController extends Controller {
     		$wei = $_POST['wei'];
     		$housearea = $_POST['housearea'];
     		$housefloor = $_POST['housefloor'];
+    		$housefloor1 = $_POST['housefloor1'];
     		$houseface = $_POST['houseface'];
     		$houseaddress = $_POST['houseaddress'];
     		$buildtime = $_POST['buildtime'];
@@ -51,7 +57,7 @@ class DefaultController extends Controller {
     		$data['sellPrice'] = $houseprice."万";
     		$data['houseHold'] = $shi."室".$ting."厅".$wei."卫";
     		$data['houseArea'] = $housearea."平米";
-    		$data['houseFloor'] = $housefloor;
+    		$data['houseFloor'] = $housefloor."/".$housefloor1;
     		$data['houseFaceTo'] = $houseface;
     		$data['address'] = $houseaddress;
     		$data['buildTime'] = $buildtime;
@@ -107,6 +113,17 @@ class DefaultController extends Controller {
     			throw new Exception("小区地址不能为空!");
     		}
     		return TRUE;
+    }
+    
+    public function houseDetail() {
+    		$id = $_GET['id'];
+    		
+    		$map['id'] = $id;
+    		$houseInfoModel = new HouseinfoModel();
+    		
+    		$res = $houseInfoModel->getByMap($map);
+    		
+    		return self::_bindValue("houseInfo", $res);
     }
 
 }

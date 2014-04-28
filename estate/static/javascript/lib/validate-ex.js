@@ -25,10 +25,9 @@ jQuery.validator.addMethod("isNum", function(value, element) {
 // 联系电话(手机/电话皆可)验证   
 jQuery.validator.addMethod("isTel", function(value,element) {   
     var length = value.length;   
-    var mobile = /^(((13[0-9]{1})|(15[0-9]{1}))+\d{8})$/;   
-    var tel = /^\d{3,4}-?\d{7,9}$/;   
-    return this.optional(element) || (tel.test(value) || mobile.test(value));   
-}, "请正确填写您的联系电话");  
+    var mobile = /^0?(13[0-9]|15[012356789]|18[0-9]|14[57])[0-9]{8}$/;     
+    return this.optional(element) || mobile.test(value);   
+}, "请正确填写电话");  
 
 //身份证号码的验证规则
 function isIdCardNo(num){ 

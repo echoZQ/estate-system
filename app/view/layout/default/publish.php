@@ -7,8 +7,20 @@
     <link rel="stylesheet" type="text/css" href="/estate/static/css/publish.css">
 </head>
 <body>
+	<div id="head">
+		<ul>
+			<li><img src="/estate/static/images/person.png"></li>
+			<li><a href="/login/index" >登录</a></li>
+			<li><a href="/register/index" >注册</a></li>
+			<li><a href="/login/loginOut" >登出</a></li>
+			<li><a href="/help/index" >帮助</a></li>
+		</ul>
+	</div>
 	<div id="header">
 		房产集中营
+		<?php if(isset($_SESSION['username'])) {?>
+			<span>欢迎您: <?php echo $_SESSION['username']."  ";?><a href="/manager/index"><img alt="管理房源" title="管理房源" src="/estate/static/images/home.png"></a></span>
+		<?php }?>
 	</div>
 	<div id="welcome">
 		<h1><i></i>发布房源<i></i></h1>
@@ -20,8 +32,6 @@
 					<div class="box">
 						<label class="label">发布类型</label>
 						<div class="type isChosed">出售</div>
-						<div class="type">整租</div>
-						<div class="type">合租</div>
 						<input type="hidden" value="出售" id="housetype" name="housetype" />
 					</div>
 					<div class="box">
@@ -50,9 +60,9 @@
 				</div>
 				
 				<div class="publish_secondstep">
-					<div class="box">
+					<div class="box box_floor">
 						<label class="label">&nbsp;&nbsp;&nbsp;&nbsp;楼层</label>
-						<input type="text" id="housefloor" name="housefloor" required="required" />
+						<input type="text" id="housefloor" name="housefloor" required="required" /><span> /</span><input type="text" id="housefloor1" name="housefloor1" required="required" />
 						<div class="err_box"></div>
 					</div>
 					<div class="box">
@@ -82,6 +92,7 @@
 					</div>
 					<div class="btn">
 						<input type="submit" id="steptwo_btn" value="发布" />
+						<input type="button" id="back_btn" value="上一步" />
 					</div>
 				</div>
 			</form>

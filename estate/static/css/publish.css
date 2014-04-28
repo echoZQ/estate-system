@@ -11,11 +11,31 @@
 
 @-webkit-keyframes secondAnimation {
   from {
-    left: -400px;
+    left: -500px;
   }
 
   to {
     left: 500px;
+  }
+}
+
+@-webkit-keyframes thirdAnimation {
+  from {
+    left: 1900px;
+  }
+
+  to {
+    left: 500px;
+  }
+}
+
+@-webkit-keyframes forthAnimation {
+  from {
+    left: 500px;
+  }
+
+  to {
+    left: -500px;
   }
 }
 
@@ -25,15 +45,6 @@
   font-size: 16px;
 }
 
-body #header {
-  width: 900px;
-  height: 60px;
-  margin: 0 auto;
-  border-bottom: 3px solid green;
-  font-size: 36px;
-  line-height: 60px;
-  color: green;
-}
 body #welcome {
   width: 900px;
   margin: 0 auto;
@@ -100,7 +111,7 @@ body #content #estate_form .publish_firststep .btn, body #content #estate_form .
   padding: 20px 125px;
 }
 body #content #estate_form .publish_firststep .btn input, body #content #estate_form .publish_secondstep .btn input {
-  width: 200px;
+  width: 100px;
   line-height: 35px;
   font-size: 24px;
   text-align: center;
@@ -130,4 +141,10 @@ body #content #estate_form .publish_secondstep .face {
   background: green;
   color: #fff;
   cursor: pointer;
+}
+body #content #estate_form .publish_secondstep .box_floor input {
+  width: 100px;
+}
+body #content #estate_form .publish_secondstep .box_floor span {
+  font-size: 30px;
 }

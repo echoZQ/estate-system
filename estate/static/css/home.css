@@ -1,83 +1,8 @@
 @import url(default.css);
-a {
-  color: #fff;
-}
-
-body #header {
-  width: 100%;
-  height: 30px;
-  padding-right: 20px;
-  text-align: right;
-  background: #535652;
-}
-body #header ul {
-  border: 1px oslid pink;
-  line-height: 30px;
-  font-size: 12px;
-  color: #fff;
-}
-body #header ul li {
-  width: 30px;
-  display: inline-block;
-}
-body #header img {
-  width: 22px;
-  height: 22px;
-  position: relative;
-  top: 5px;
-}
-body #title {
-  width: 990px;
-  margin: 0 auto;
-  font-size: 36px;
-  line-height: 60px;
-  color: green;
-}
 body #content {
   width: 990px;
   margin: 0 auto;
   padding: 20px 0;
-}
-body #content #menu {
-  background: green;
-  height: 50px;
-  padding: 0px 20px;
-  border-radius: 2px;
-}
-body #content #menu ul {
-  display: block;
-  float: left;
-  width: 60%;
-}
-body #content #menu ul li {
-  display: inline-block;
-  width: 100px;
-  font-size: 22px;
-  line-height: 50px;
-  text-align: center;
-  color: #fff;
-  cursor: pointer;
-}
-body #content #menu ul li:hover {
-  background: red;
-}
-body #content #menu ul li:not(.rent_page) {
-  border-right: 1px solid #fff;
-}
-body #content #menu span {
-  display: block;
-  float: left;
-  width: 40%;
-  text-align: right;
-  line-height: 60px;
-  color: #fff;
-}
-body #content #menu span img {
-  position: relative;
-  top: 5px;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
 }
 body #public_info {
   position: fixed;
