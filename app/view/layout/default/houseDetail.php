@@ -20,7 +20,7 @@
 		</ul>
 	</div>
 	<div id="header">
-		房产集中营
+		<a href="/default/index">房产集中营</a>
 		<?php if(isset($_SESSION['username'])) {?>
 			<span>欢迎您: <?php echo $_SESSION['username']."  ";?><a href="/manager/index"><img alt="管理房源" title="管理房源" src="/estate/static/images/home.png"></a></span>
 		<?php }?>
@@ -41,6 +41,7 @@
 				</div>
 			</div>
 		</div>
+		<div class="notice"><?php if("" == $houseInfo['img']) { echo "用户尚未发布任何照片!";}?></div>
 		<table cellspacing="5" cellpadding="0" width="900">
 			<tr>
 				<td class="even">户型</td>

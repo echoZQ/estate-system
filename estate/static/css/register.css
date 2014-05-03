@@ -16,6 +16,9 @@ body #blc_title h2, body #blc_title h6 {
 body #blc_title h6 {
   width: 180px;
 }
+body #blc_title a {
+  color: green;
+}
 body #register_form {
   width: 900px;
   height: auto;

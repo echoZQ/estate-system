@@ -17,7 +17,7 @@
 		</ul>
 	</div>
 	<div id="header">
-		房产集中营
+		<a href="/default/index">房产集中营</a>
 		<?php if(isset($_SESSION['username'])) {?>
 			<span>欢迎您: <?php echo $_SESSION['username']."  ";?><a href="/manager/index"><img alt="管理房源" title="管理房源" src="/estate/static/images/home.png"></a></span>
 		<?php }?>

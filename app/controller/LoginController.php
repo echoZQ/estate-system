@@ -15,8 +15,7 @@ class LoginController extends Controller {
     public function doLogin() {
     		$account = $_POST['account'];
     		$password = $_POST['password'];
-    		//$remember = $_POST['remember'];
-
+ 
     		$check = $this->checkLogin($account, $password);
     		
     		$userModel = new UserModel();
@@ -27,9 +26,6 @@ class LoginController extends Controller {
     			if($res['password'] == md5($password)) {
     				$_SESSION['username'] = $account;
     				return self::_genJSONResult(['code' => 0, 'msg' => '登陆成功!', 'redirect' => '/default/index']);
-//     				if($remember == "true") {
-//     					$this->response->setCookie('username', $account, "30days");
-//     				}
     			}else {
     				return  self::_genJSONResult(['code' => -1, 'msg' => '密码错误!', 'redirect' => '/login/index']);
     			}

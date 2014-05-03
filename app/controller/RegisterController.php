@@ -28,7 +28,7 @@ class RegisterController extends Controller {
 	    		
 	    		$res = $userModel->add($data);
 	    		if($res) {
-	    			return self::_genJSONResult(['code' => 0,'msg' => "注册成功!", 'redirect' => '/default/index']);
+	    			return self::_genJSONResult(['code' => 0,'msg' => "注册成功!", 'redirect' => '/login/index']);
 	    		}else {
 	    			return self::_genJSONResult(['code' => -1,'msg' => "注册失败!", 'redirect' => '/register/index']);
 	    		}

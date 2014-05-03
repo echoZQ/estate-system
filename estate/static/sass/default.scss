@@ -55,6 +55,49 @@ ul {
 		width: 30px;
 		height: 30px;
 	}
+	a {
+		color: green;
+	}
+}
+
+#public_info {
+	position: fixed;
+	top: 550px;
+	width: 50px;
+	right: 20px;
+	color: blue;
+	img {
+		margin-top: 10px;
+		display: block;
+		cursor: pointer;
+	}
+}
+
+.pagination {
+	margin: 30px 0px 0px 0px;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: right;
+	color: green;
+	.pager {
+		li {
+			display: inline-block;
+			cursor: pointer;
+			a {
+				color: green;
+			}
+			input {
+				position: relative;
+				top:-3px;
+				width: 25px;
+				height: 25px;
+			}
+			.linkTo {
+				width: 50px;
+				font-size: 18px;
+			}
+		}
+	}
 }
 	
 a {

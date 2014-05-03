@@ -7,8 +7,17 @@
     <link rel="stylesheet" type="text/css" href="/estate/static/css/manager.css">
 </head>
 <body>
+	<div id="head">
+		<ul>
+			<li><img src="/estate/static/images/person.png"></li>
+			<li><a href="/login/index" >登录</a></li>
+			<li><a href="/register/index" >注册</a></li>
+			<li><a href="/login/loginOut" >登出</a></li>
+			<li><a href="/help/index" >帮助</a></li>
+		</ul>
+	</div>
 	<div id="header">
-		房产集中营
+		<a href="/default/index">房产集中营</a>
 		<?php if(isset($_SESSION['username'])) {?>
 			<span>欢迎您: <?php echo $_SESSION['username']."  ";?><a href="/manager/index"><img alt="管理房源" title="管理房源" src="/estate/static/images/home.png"></a></span>
 		<?php }?>
@@ -37,8 +46,11 @@
 				</tr>
 			<?php }?>
 		</table>
+		<div id="public_info">
+			<a href="/default/publish"><img alt="我要发房" src="/estate/static/images/public.png"></a>
+			<a href=""><img alt="意见反馈" src="/estate/static/images/advice.png"></a>
+		</div>
 	</div>
 </body>
 <script type="text/javascript" src="/estate/static/javascript/lib/jquery-2.0.3.js"></script>
-<script type="text/javascript" src="/estate/static/javascript/manager.js"></script>
 </html>

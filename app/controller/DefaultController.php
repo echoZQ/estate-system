@@ -9,13 +9,45 @@ use HFB\app\model\db\UserModel;
 
 class DefaultController extends Controller {
 
-    public function index() {
+    public function index($page = 1) {
+    		static $pageSize = 2;
+    		
 	    	$houseInfoModel = new HouseinfoModel();
 	    	
 	    	$map['type'] = "出售";
-	    	$res = $houseInfoModel->getListByMap($map);
+	   
+	    	$res = $houseInfoModel->getListByMap();
+	    	$count = count($res);
+	    	$pages = ceil($count / $pageSize);
 	    	
-	    	return self::_bindValue("houseInfo", $res);
+	    	if($page > $pages || $page < 0 || !is_numeric($page)) {
+	    		return self::_alertRedirect("参数出错!");
+	    	}
+	    	
+	    	if(0 != $count) {
+	    		if($page > 1) { 
+	    			$prevPageUrl = "/default/index?page=".($page-1);
+	    			$prevPage = "<a href='".$prevPageUrl."'>上一页</a>";
+	    		}else {
+	    			$prevPage = "";
+	    		}
+	    	}
+	    	if($count > 1) {
+	    		if($page < $pages) {
+	    			$nextPageUrl = "/default/index?page=".($page+1);
+	    			$nextPage = "<a href='".$nextPageUrl."'>下一页</a>";
+	    		}else {
+	    			$nextPage = "";
+	    		}
+	    	}
+	    	
+	    	$houseList = $houseInfoModel->getListByMap($map, $page, $pageSize);
+	    	
+	    	self::_bindValue("houseInfo", $houseList);
+	    	self::_bindValue("prevPage", $prevPage);
+	    	self::_bindValue("nextPage", $nextPage);
+	    	self::_bindValue("pagesNum", $pages);
+	    	self::_bindValue("currentPage", $page);
     }
     
     public function publish() {

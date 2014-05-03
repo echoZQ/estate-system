@@ -4,15 +4,3 @@ body #content {
   margin: 0 auto;
   padding: 20px 0;
 }
-body #public_info {
-  position: fixed;
-  top: 550px;
-  width: 50px;
-  right: 20px;
-  color: blue;
-}
-body #public_info img {
-  margin-top: 10px;
-  display: block;
-  cursor: pointer;
-}

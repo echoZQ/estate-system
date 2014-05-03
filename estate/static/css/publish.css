@@ -126,7 +126,7 @@ body #content #estate_form .publish_firststep {
 }
 body #content #estate_form .publish_secondstep {
   position: absolute;
-  top: 160px;
+  top: 200px;
   left: -400px;
 }
 body #content #estate_form .publish_secondstep .face {

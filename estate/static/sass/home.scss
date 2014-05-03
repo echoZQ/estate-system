@@ -1,0 +1,18 @@
+@import "default.css";
+
+@mixin border-radius($values) {
+  -webkit-border-radius: $values;
+     -moz-border-radius: $values;
+          border-radius: $values;
+}
+
+$width: 990px;
+$margin: 0 auto;
+
+body {
+	#content {
+		width: $width;
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+}
