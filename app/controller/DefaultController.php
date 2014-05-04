@@ -11,12 +11,12 @@ class DefaultController extends Controller {
 
     public function index($page = 1) {
     		static $pageSize = 2;
-    		
+    		static $orderBy = "id desc";
 	    	$houseInfoModel = new HouseinfoModel();
 	    	
-	    	$map['type'] = "出售";
+	    	$map['isSelled'] = "0";
 	   
-	    	$res = $houseInfoModel->getListByMap();
+	    	$res = $houseInfoModel->getListByMap($map);
 	    	$count = count($res);
 	    	$pages = ceil($count / $pageSize);
 	    	
@@ -41,7 +41,7 @@ class DefaultController extends Controller {
 	    		}
 	    	}
 	    	
-	    	$houseList = $houseInfoModel->getListByMap($map, $page, $pageSize);
+	    	$houseList = $houseInfoModel->getListByMap($map, $page, $pageSize, $orderBy);
 	    	
 	    	self::_bindValue("houseInfo", $houseList);
 	    	self::_bindValue("prevPage", $prevPage);

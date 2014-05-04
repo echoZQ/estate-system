@@ -19,7 +19,7 @@ body {
 	#welcome {
 		width: $width;
 		margin: $margin;
-		height: 80px;
+		height: 60px;
 		text-align: center;
 		line-height: 80px;
 		i {
@@ -35,12 +35,12 @@ body {
 		width: $width;
 		margin: $margin;
 		height: 600px;
-		padding: 20px 40px;
+		padding: 10px 40px;
 		background:url('../images/manager_bg.jpg');
 		.update_box {
 			width: 600px;
 			.box {
-				margin-top: 15px;
+				margin-top: 10px;
 				font-size: 22px;
 				.label {
 					width: 150px;

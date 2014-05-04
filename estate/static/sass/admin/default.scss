@@ -1,0 +1,42 @@
+body {
+	#container {
+		position: absolute;
+		top: 50px;
+		bottom: 0px;
+		width: 100%;
+		padding: 30px;
+	}
+	.welcome {
+		position: absolute;
+		top: 18px;
+		right: 20px;
+		font-size: 14px;
+		color: #fff;
+	}
+	table {
+		caption {
+			font-size: 22px;
+		}
+		td,th {
+			text-align: center;
+		}
+		.estateName {
+			cursor: pointer;
+		}
+	}
+	#carousel {
+		position: absolute;
+		top: 60px;
+		left: 750px;
+		width: 600px;
+		.item {
+			img {
+				width: 600px;
+				height: 400px;
+			}
+		}
+	}
+	.pagination {
+		margin-left: 1100px;
+	}
+}

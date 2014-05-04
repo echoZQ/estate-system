@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <title>房产集中营</title>
     <link rel="stylesheet" type="text/css" href="/estate/static/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/estate/static/css/admin/index.css">
+    <link rel="stylesheet" type="text/css" href="/estate/static/css/admin/default.css">
 </head>
 <body>
+	<div id="link" style="display: none;"><?php echo $_SESSION['link'];?></div>
 	<nav class="navbar navbar-inverse" role="navigation">
 	  	<div class="navbar-header">
 	    		<a class="navbar-brand">房产集中营管理员系统</a>
@@ -14,8 +15,8 @@
 	
 	  	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	  	  	<ul class="nav navbar-nav">
-	    			<li class="active"><a href="/admin/houseInfo">房源信息</a></li>
-	      		<li><a href="#">销售记录</a></li>
+	    			<li class="active" linkTo="houseInfo"><a href="/admin/houseInfo">房源信息</a></li>
+	      		<li linkTo="sellRecord"><a href="/admin/sellRecord">销售记录</a></li>
 	      		<li><a href="#">用户信息</a></li>
 	     		<li class="dropdown">
 	        			<a href="#" class="dropdown-toggle" data-toggle="dropdown">管理员信息<b class="caret"></b></a>
@@ -26,8 +27,24 @@
 	      		</li>
 	   		</ul>
 	    </div>
+	    <div class="welcome"><?php if(isset($_SESSION['admin'])) echo "欢迎您: ".$_SESSION['admin'];?></div>
 	</nav>
+	<div id="container">
+		<?php echo $_screenHolder;?>
+	</div>
 </body>
 <script type="text/javascript" src="/estate/static/javascript/lib/jquery-2.0.3.js"></script>
 <script type="text/javascript" src="/estate/static/javascript/lib/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		var linkTo = $('#link').text();
+		$('li').each(function() {
+			$(this).removeClass("active");
+
+			if($(this).attr("linkTo") == linkTo) {
+				$(this).addClass("active");
+			}
+		});
+	})
+</script>
 </html>

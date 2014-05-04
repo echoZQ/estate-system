@@ -1,0 +1,36 @@
+body #container {
+  position: absolute;
+  top: 50px;
+  bottom: 0px;
+  width: 100%;
+  padding: 30px;
+}
+body .welcome {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+body table caption {
+  font-size: 22px;
+}
+body table td, body table th {
+  text-align: center;
+}
+body table .estateName {
+  cursor: pointer;
+}
+body #carousel {
+  position: absolute;
+  top: 60px;
+  left: 750px;
+  width: 600px;
+}
+body #carousel .item img {
+  width: 600px;
+  height: 400px;
+}
+body .pagination {
+  margin-left: 1100px;
+}

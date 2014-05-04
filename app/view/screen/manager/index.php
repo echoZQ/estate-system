@@ -26,7 +26,9 @@
 					<td><?php echo $houseInfo[$i]['houseHold']?></td>
 					<td><?php echo $houseInfo[$i]['houseFloor']?></td>
 					<td><?php echo $houseInfo[$i]['houseArea']?>平米</td>
-					<td><?php if(0 == $houseInfo[$i]['checkPass']) echo "未通过";else echo "通过";?></td>
+					<td><?php if(0 == $houseInfo[$i]['checkPass']) {echo "尚未审核";}
+	  							else if(1 == $houseInfo[$i]['checkPass']) {echo "通过";}
+	  							else if(2 == $houseInfo[$i]['checkPass']) {echo "不通过";}?></td>
 					<td><a href="/manager/update?id=<?php echo $houseInfo[$i]['id']?>"><span>修改</span></a><a href="/manager/delete?id=<?php echo $houseInfo[$i]['id'];?>"><span>删除</span></a></td>
 				</tr>
 			<?php }?>
