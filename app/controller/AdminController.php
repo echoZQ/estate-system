@@ -50,4 +50,8 @@ class AdminController extends Controller {
 	
 		return TRUE;
 	}
+	
+	public function houseInfo() {
+		
+	}
 }

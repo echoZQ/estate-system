@@ -16578,3 +16578,536 @@
 [2014-05-03 16:24:49] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
 [2014-05-03 16:24:49] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default/index.php
 [2014-05-03 16:24:49] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.017903089523315 secs
+[2014-05-04 09:37:35] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:37:35] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 09:37:35] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 09:37:35] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[0,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 09:37:35] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:37:35] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default/index.php
+[2014-05-04 09:37:35] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.071086168289185 secs
+[2014-05-04 09:37:46] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:37:46] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/admin
+[2014-05-04 09:37:50] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:37:50] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:37:50] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:37:50] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:37:50] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.016996145248413 secs
+[2014-05-04 09:37:54] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:37:54] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 09:37:54] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 09:37:54] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[0,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 09:37:54] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:37:54] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default/index.php
+[2014-05-04 09:37:54] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011268138885498 secs
+[2014-05-04 09:38:20] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:38:20] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/login
+[2014-05-04 09:38:20] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:38:20] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/login.php
+[2014-05-04 09:38:20] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.014112949371338 secs
+[2014-05-04 09:40:55] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:40:55] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/doLogin
+[2014-05-04 09:40:55] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `admin` where 1 and `username` = ? ]. with Params: [["echo","PARAM_STR"]]
+[2014-05-04 09:40:55] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011461019515991 secs
+[2014-05-04 09:40:55] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:40:55] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:40:55] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:40:55] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:40:55] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0069057941436768 secs
+[2014-05-04 09:45:12] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:45:12] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:45:12] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:45:12] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:45:12] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0059599876403809 secs
+[2014-05-04 09:47:01] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:47:01] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:47:01] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:47:01] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:47:01] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0067729949951172 secs
+[2014-05-04 09:48:40] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:48:40] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:48:40] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:48:40] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:48:40] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.010552883148193 secs
+[2014-05-04 09:50:23] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:50:23] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:50:23] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:50:23] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:50:23] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0065019130706787 secs
+[2014-05-04 09:50:25] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:50:25] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:50:25] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:50:25] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:50:25] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.006986141204834 secs
+[2014-05-04 09:51:19] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:51:19] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:51:19] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:51:19] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:51:19] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0086960792541504 secs
+[2014-05-04 09:52:10] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:52:10] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:52:10] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:52:10] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:52:10] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0065469741821289 secs
+[2014-05-04 09:52:26] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:52:26] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:52:26] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:52:26] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:52:26] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.006782054901123 secs
+[2014-05-04 09:52:46] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:52:46] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:52:46] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:52:46] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:52:46] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0079209804534912 secs
+[2014-05-04 09:54:08] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:54:08] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:54:08] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:54:08] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:54:08] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0088188648223877 secs
+[2014-05-04 09:54:10] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:54:10] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:54:10] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:54:10] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:54:10] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0063440799713135 secs
+[2014-05-04 09:55:09] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:55:09] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:55:09] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:55:09] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:55:09] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0065290927886963 secs
+[2014-05-04 09:55:10] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:55:10] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:55:10] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:55:10] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:55:10] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0071830749511719 secs
+[2014-05-04 09:56:27] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:56:27] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:56:27] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:56:27] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:56:27] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0069742202758789 secs
+[2014-05-04 09:56:28] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:56:28] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:56:28] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:56:28] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:56:28] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0083940029144287 secs
+[2014-05-04 09:56:56] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:56:56] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:56:56] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:56:56] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:56:56] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0063610076904297 secs
+[2014-05-04 09:57:17] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:57:17] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:57:17] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:57:17] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:57:17] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0070641040802002 secs
+[2014-05-04 09:57:54] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:57:54] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:57:55] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:57:55] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:57:55] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0076510906219482 secs
+[2014-05-04 09:58:07] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 09:58:07] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 09:58:07] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 09:58:07] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 09:58:07] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0087800025939941 secs
+[2014-05-04 10:04:46] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:04:46] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:04:46] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:04:46] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:04:46] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.007317066192627 secs
+[2014-05-04 10:05:42] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:05:42] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:05:42] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:05:42] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:05:42] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0086460113525391 secs
+[2014-05-04 10:05:43] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:05:43] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:05:43] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:05:43] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:05:43] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0089099407196045 secs
+[2014-05-04 10:09:38] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:09:38] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:09:38] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:09:38] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:09:38] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0065441131591797 secs
+[2014-05-04 10:09:39] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:09:39] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:09:39] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:09:39] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:09:39] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0083019733428955 secs
+[2014-05-04 10:10:22] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:10:22] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:10:22] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:10:22] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:10:22] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0067880153656006 secs
+[2014-05-04 10:11:47] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:11:47] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:11:47] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:11:47] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:11:47] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0070681571960449 secs
+[2014-05-04 10:13:34] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:13:34] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:13:34] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:13:34] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:13:34] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0076298713684082 secs
+[2014-05-04 10:27:17] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:27:17] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:27:17] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:27:17] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:27:17] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0080430507659912 secs
+[2014-05-04 10:27:41] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:27:41] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:27:41] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:27:41] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:27:41] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0085880756378174 secs
+[2014-05-04 10:29:53] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:29:53] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:29:53] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:29:53] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:29:53] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0066690444946289 secs
+[2014-05-04 10:30:42] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:30:42] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:30:42] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:30:42] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:30:42] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0092699527740479 secs
+[2014-05-04 10:31:20] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:31:20] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:31:20] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:31:20] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:31:20] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0084271430969238 secs
+[2014-05-04 10:31:50] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:31:50] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:31:50] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:31:50] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:31:50] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0063891410827637 secs
+[2014-05-04 10:32:29] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:32:29] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:32:29] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:32:29] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:32:29] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.008120059967041 secs
+[2014-05-04 10:32:51] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:32:51] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:32:51] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:32:51] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:32:51] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0085818767547607 secs
+[2014-05-04 10:33:39] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:33:39] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:33:39] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:33:39] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:33:39] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0074830055236816 secs
+[2014-05-04 10:34:08] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:34:08] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:34:08] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:34:08] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:34:08] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0085890293121338 secs
+[2014-05-04 10:34:59] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:34:59] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:34:59] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:34:59] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:34:59] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0071620941162109 secs
+[2014-05-04 10:35:20] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:35:20] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:35:20] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:35:20] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:35:20] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.008544921875 secs
+[2014-05-04 10:36:00] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:36:00] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:36:00] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:36:00] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:36:00] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0082838535308838 secs
+[2014-05-04 10:36:19] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:36:19] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:36:19] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:36:19] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:36:19] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0065410137176514 secs
+[2014-05-04 10:36:37] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:36:37] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:36:37] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:36:37] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:36:37] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0083019733428955 secs
+[2014-05-04 10:36:46] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:36:46] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:36:46] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:36:46] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:36:46] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0066850185394287 secs
+[2014-05-04 10:38:48] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:38:48] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:38:48] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:38:48] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:38:48] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0065829753875732 secs
+[2014-05-04 10:40:09] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:40:09] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:40:09] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:40:09] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:40:09] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0064878463745117 secs
+[2014-05-04 10:40:30] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:40:30] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:40:30] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:40:30] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:40:30] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0088150501251221 secs
+[2014-05-04 10:40:53] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:40:53] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:40:53] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:40:53] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:40:53] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0063560009002686 secs
+[2014-05-04 10:42:26] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:42:26] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:42:26] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:42:26] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:42:26] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0062820911407471 secs
+[2014-05-04 10:44:06] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:44:06] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:44:06] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:44:06] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:44:06] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0084199905395508 secs
+[2014-05-04 10:44:20] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:44:20] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:44:20] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:44:20] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:44:20] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0064051151275635 secs
+[2014-05-04 10:45:12] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:45:12] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:45:12] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:45:12] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/index.php
+[2014-05-04 10:45:12] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0081138610839844 secs
+[2014-05-04 10:45:14] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:45:14] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseInfo
+[2014-05-04 10:45:14] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:45:14] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:45:14] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.016650915145874 secs
+[2014-05-04 10:45:30] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:45:30] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseInfo
+[2014-05-04 10:45:30] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:45:30] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:45:30] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0061299800872803 secs
+[2014-05-04 10:45:31] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:45:31] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseInfo
+[2014-05-04 10:45:31] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:45:31] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:45:31] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0062830448150635 secs
+[2014-05-04 10:46:34] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:46:34] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseInfo
+[2014-05-04 10:46:34] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:46:34] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:46:34] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0092689990997314 secs
+[2014-05-04 10:48:20] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:48:20] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseInfo
+[2014-05-04 10:48:20] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:48:20] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:48:20] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0078461170196533 secs
+[2014-05-04 10:48:22] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:48:22] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/index
+[2014-05-04 10:48:22] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/index.php
+[2014-05-04 10:48:22] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:48:22] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0070409774780273 secs
+[2014-05-04 10:48:28] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:48:28] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 10:48:28] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 10:48:28] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[0,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 10:48:28] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-04 10:48:28] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:48:28] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.014395952224731 secs
+[2014-05-04 10:48:57] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:48:57] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 10:48:57] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 10:48:57] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[0,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 10:48:57] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-04 10:48:57] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:48:57] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.010687828063965 secs
+[2014-05-04 10:49:38] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:49:38] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 10:49:38] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 10:49:38] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[0,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 10:49:38] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-04 10:49:38] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:49:38] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.01250696182251 secs
+[2014-05-04 10:49:44] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:49:44] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 10:49:44] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 10:49:44] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[2,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 10:49:44] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-04 10:49:44] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:49:44] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.021070957183838 secs
+[2014-05-04 10:49:45] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:49:45] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 10:49:45] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 10:49:45] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[4,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 10:49:45] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-04 10:49:45] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:49:45] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012086153030396 secs
+[2014-05-04 10:49:48] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:49:48] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 10:49:48] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 10:49:48] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[2,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 10:49:48] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-04 10:49:48] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:49:48] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.010734081268311 secs
+[2014-05-04 10:49:50] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:49:50] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/index
+[2014-05-04 10:49:50] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/login/index.php
+[2014-05-04 10:49:50] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:49:50] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0077550411224365 secs
+[2014-05-04 10:49:51] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:49:51] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /register/index
+[2014-05-04 10:49:51] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/register/index.php
+[2014-05-04 10:49:51] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:49:51] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0064539909362793 secs
+[2014-05-04 10:49:53] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:49:53] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/loginOut
+[2014-05-04 10:49:53] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:49:53] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:49:53] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0081160068511963 secs
+[2014-05-04 10:49:53] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:49:53] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 10:49:53] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 10:49:53] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[0,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 10:49:53] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-04 10:49:53] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:49:53] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.017730951309204 secs
+[2014-05-04 10:52:08] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:52:08] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 10:52:08] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 10:52:08] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[0,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 10:52:08] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-04 10:52:08] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:52:08] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012041807174683 secs
+[2014-05-04 10:52:30] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:52:30] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 10:52:30] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 10:52:30] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[0,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 10:52:30] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-04 10:52:30] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:52:30] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012521028518677 secs
+[2014-05-04 10:52:45] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:52:45] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 10:52:45] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 10:52:45] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[0,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 10:52:45] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-04 10:52:45] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:52:45] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.010948181152344 secs
+[2014-05-04 10:54:02] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:02] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 10:54:02] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 10:54:02] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[0,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 10:54:02] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-04 10:54:02] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:02] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.01230001449585 secs
+[2014-05-04 10:54:04] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:04] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/index
+[2014-05-04 10:54:04] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/login/index.php
+[2014-05-04 10:54:04] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:04] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0064921379089355 secs
+[2014-05-04 10:54:05] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:05] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/index
+[2014-05-04 10:54:05] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/login/index.php
+[2014-05-04 10:54:05] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:05] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0072829723358154 secs
+[2014-05-04 10:54:06] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:06] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /register/index
+[2014-05-04 10:54:06] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/register/index.php
+[2014-05-04 10:54:06] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:06] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0074288845062256 secs
+[2014-05-04 10:54:07] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:07] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /register/index
+[2014-05-04 10:54:07] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/register/index.php
+[2014-05-04 10:54:07] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:07] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0062041282653809 secs
+[2014-05-04 10:54:09] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:09] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/loginOut
+[2014-05-04 10:54:09] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-04 10:54:09] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:09] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0080668926239014 secs
+[2014-05-04 10:54:09] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:09] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 10:54:09] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 10:54:09] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[0,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 10:54:09] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-04 10:54:09] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:09] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.015388011932373 secs
+[2014-05-04 10:54:12] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:12] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 10:54:12] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 10:54:12] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[2,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 10:54:12] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-04 10:54:12] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:12] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012091875076294 secs
+[2014-05-04 10:54:12] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:12] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 10:54:12] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 10:54:12] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[4,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 10:54:12] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-04 10:54:12] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:12] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011476993560791 secs
+[2014-05-04 10:54:14] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:14] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/publish
+[2014-05-04 10:54:14] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/publish.php
+[2014-05-04 10:54:14] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:14] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0083479881286621 secs
+[2014-05-04 10:54:15] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:15] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/index
+[2014-05-04 10:54:15] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/login/index.php
+[2014-05-04 10:54:15] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:15] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.007702112197876 secs
+[2014-05-04 10:54:21] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:21] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/doLogin
+[2014-05-04 10:54:21] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `username` = ? ]. with Params: [["echo","PARAM_STR"]]
+[2014-05-04 10:54:21] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0174241065979 secs
+[2014-05-04 10:54:27] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:27] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/doLogin
+[2014-05-04 10:54:27] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `username` = ? ]. with Params: [["echo","PARAM_STR"]]
+[2014-05-04 10:54:27] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0082290172576904 secs
+[2014-05-04 10:54:27] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:27] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-04 10:54:27] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1]. with Params: []
+[2014-05-04 10:54:27] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `type` = ? limit ?, ?]. with Params: [["\u51fa\u552e","PARAM_STR"],[0,"PARAM_LOB"],[2,"PARAM_LOB"]]
+[2014-05-04 10:54:27] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-04 10:54:27] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:27] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012095212936401 secs
+[2014-05-04 10:54:29] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:29] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /manager/index
+[2014-05-04 10:54:29] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `username` = ? ]. with Params: [["echo","PARAM_STR"]]
+[2014-05-04 10:54:29] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["18","PARAM_STR"]]
+[2014-05-04 10:54:29] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/manager/index.php
+[2014-05-04 10:54:29] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:29] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.022467851638794 secs
+[2014-05-04 10:54:31] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:31] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /manager/update
+[2014-05-04 10:54:31] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["11","PARAM_STR"]]
+[2014-05-04 10:54:31] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/manager/update.php
+[2014-05-04 10:54:31] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:31] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011669874191284 secs
+[2014-05-04 10:54:31] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:31] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:31] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:31] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/javascript/js/jquery.ui.plupload/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+[2014-05-04 10:54:31] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/javascript/js/jquery.ui.plupload/css/images/ui-bg_flat_75_ffffff_40x100.png
+[2014-05-04 10:54:31] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/javascript/js/jquery.ui.plupload/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+[2014-05-04 10:54:31] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:31] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/javascript/js/jquery.ui.plupload/css/images/ui-icons_888888_256x240.png
+[2014-05-04 10:54:31] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:31] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:31] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/javascript/js/jquery.ui.plupload/css/images/ui-bg_glass_65_ffffff_1x400.png
+[2014-05-04 10:54:31] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/javascript/js/jquery.ui.plupload/css/images/ui-icons_454545_256x240.png
+[2014-05-04 10:54:32] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:32] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:32] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/javascript/js/jquery.ui.plupload/css/images/ui-icons_454545_256x240.png
+[2014-05-04 10:54:32] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/javascript/js/jquery.ui.plupload/css/images/ui-bg_glass_75_dadada_1x400.png
+[2014-05-04 10:54:38] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:38] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /manager/index
+[2014-05-04 10:54:38] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `username` = ? ]. with Params: [["echo","PARAM_STR"]]
+[2014-05-04 10:54:38] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["18","PARAM_STR"]]
+[2014-05-04 10:54:38] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/manager/index.php
+[2014-05-04 10:54:38] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:38] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.010989904403687 secs
+[2014-05-04 10:54:40] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:40] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /manager/index
+[2014-05-04 10:54:40] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `username` = ? ]. with Params: [["echo","PARAM_STR"]]
+[2014-05-04 10:54:40] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["18","PARAM_STR"]]
+[2014-05-04 10:54:40] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/manager/index.php
+[2014-05-04 10:54:40] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:40] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011909961700439 secs
+[2014-05-04 10:54:41] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-04 10:54:41] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /manager/index
+[2014-05-04 10:54:41] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `username` = ? ]. with Params: [["echo","PARAM_STR"]]
+[2014-05-04 10:54:41] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["18","PARAM_STR"]]
+[2014-05-04 10:54:41] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/manager/index.php
+[2014-05-04 10:54:41] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-04 10:54:41] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011723041534424 secs
