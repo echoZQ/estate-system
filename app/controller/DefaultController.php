@@ -81,7 +81,7 @@ class DefaultController extends Controller {
     		$buildtime = $_POST['buildtime'];
     		$ownername = $_POST['ownername'];
     		$ownermobile = $_POST['ownermobile'];
-    		$publishtime = date("Y-m-d H:i:s");
+    		$publishtime = date("Y-m-d");
     		
     		$data['sellerId'] = $uid;
     		$data['type'] = $housetype;

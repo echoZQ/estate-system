@@ -23,10 +23,21 @@
 				<span><input type="password" id="password" name="password" minlength="6" required="required" /></span>
 				<div class="err_box"></div>
 			</div>
-<!-- 			<div class="service_info"> -->
-<!-- 				<input type="checkbox" id="checkRead" name="checkRead" required="required"> 我已阅读并接受《<span>服务条款</span>》 -->
-<!-- 				<div class="err_box"></div> -->
-<!-- 			</div> -->
+			<div class="email_info">
+				<label>邮箱:</label><br>
+				<span><input type="text" id="email" name="email" required="required" /></span>
+				<div class="err_box"></div>
+			</div>
+			<div class="mobile_info">
+				<label>手机号:</label><br>
+				<span><input type="text" id="mobile" name="mobile" required="required" /></span>
+				<div class="err_box"></div>
+			</div>
+			<div class="qq_info">
+				<label>QQ号:</label><br>
+				<span><input type="text" id="qq" name="qq" /></span>
+				<div class="err_box"></div>
+			</div>
 			<div class="login_button">
 				<input type="submit" value="注册">
 			</div>

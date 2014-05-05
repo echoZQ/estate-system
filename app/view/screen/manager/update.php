@@ -67,7 +67,7 @@
 				</div>
 				<div class="box">
 					<label class="label">是否售出</label>
-					<input type="text" value="<?php if(0 == $houseInfo['isSelled']) echo "已售出"; else echo "未售出"?>" readonly="readonly"  />
+					<input type="text" value="<?php if(1 == $houseInfo['isSelled']) echo "已售出"; else echo "未售出"?>" readonly="readonly"  />
 				</div>
 				<div class="box_btn">
 					<input type="submit" value="提交更新" />

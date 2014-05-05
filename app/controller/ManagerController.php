@@ -18,6 +18,7 @@ class ManagerController extends Controller {
     public function index() {
     		$username = $_SESSION['username'];
     		$map['username'] = $username;
+    		$orderBy = 'id desc';
     		
     		$userModel = new UserModel();
     		
@@ -28,7 +29,7 @@ class ManagerController extends Controller {
     		
     		$houseInfoModel = new HouseinfoModel();
     		
-    		$houseInfo = $houseInfoModel->getListByMap($data);
+    		$houseInfo = $houseInfoModel->getListByMap($data,"","",$orderBy);
     		
     		return self::_bindValue("houseInfo", $houseInfo);
     		
@@ -92,24 +93,23 @@ class ManagerController extends Controller {
     		} else {
     			move_uploaded_file($_FILES["file"]["tmp_name"],
     			"upload/" . $_FILES["file"]["name"]);
-    			
-    			$houseInfoModel = new HouseinfoModel();
-    			
-    			$res = $houseInfoModel->getByMap($map);
-    			$img = $res['img'];
-    			
-    			if("" != $img) {
-    				$imgArray = explode(";",$img);
-    				if(count($imgArray) < 8) {
-    					array_push($imgArray, "/upload/" . $_FILES["file"]["name"]);
-    				}
-    				$data['img'] = implode(";", $imgArray);
-    			}else {
-    				$data['img'] = "/upload/" . $_FILES["file"]["name"];
-    			}
-    
-    			$res = $houseInfoModel->update($data, $map);
     		}
+    		
+    		$houseInfoModel = new HouseinfoModel();
+    		$res = $houseInfoModel->getByMap($map);
+    		$img = $res['img'];
+    		 
+    		if("" != $img) {
+    			$imgArray = explode(";",$img);
+    			if(count($imgArray) < 8) {
+    				array_push($imgArray, "/upload/" . $_FILES["file"]["name"]);
+    			}
+    			$data['img'] = implode(";", $imgArray);
+    		}else {
+    			$data['img'] = "/upload/" . $_FILES["file"]["name"];
+    		}
+    		
+    		$res = $houseInfoModel->update($data, $map);
     	}
     	
     	private function checkUpdate($data) {

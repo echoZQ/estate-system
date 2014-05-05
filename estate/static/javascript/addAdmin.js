@@ -1,10 +1,10 @@
 $(function() {
 	
-	var loginForm = $('#registertForm');
+	var adminRegister = $('#adminRegister');
 	
-	loginForm.validate({
+	adminRegister.validate({
 		errorPlacement : function(error, element) { 
-			par = element.parent().parent().find(".err_box");  
+			par = element.parent().find(".err_box");  
 	        par.empty();  
 	        error.appendTo(par);  
 		}, 
@@ -12,21 +12,15 @@ $(function() {
 		    $(element).valid(); 
 		},
 		rules: {
-			account: {
+			username: {
 				userName: true
 		    },
 		    email: {
 		    		isEmail:true
-		    },
-		    mobile: {
-		    		isTel: true
-		    },
-		    qq: {
-		    		isQq: true
 		    }
 		},
 		messages : {
-			account: {
+			username: {
 				required: "用户名不能为空",
 				minlength: "用户名至少4个字符"
 			},
@@ -43,7 +37,7 @@ $(function() {
 		 }
 	};
 
-	$('#registertForm').ajaxForm({
+	$('#adminRegister').ajaxForm({
 		success : success,
 		dataType: 'json'
 	});

@@ -17,12 +17,12 @@
 	  	  	<ul class="nav navbar-nav">
 	    			<li class="active" linkTo="houseInfo"><a href="/admin/houseInfo">房源信息</a></li>
 	      		<li linkTo="sellRecord"><a href="/admin/sellRecord">销售记录</a></li>
-	      		<li><a href="#">用户信息</a></li>
-	     		<li class="dropdown">
+	      		<li linkTo="userInfo"><a href="/admin/userInfo">用户信息</a></li>
+	     		<li linkTo="adminInfo" class="dropdown">
 	        			<a href="#" class="dropdown-toggle" data-toggle="dropdown">管理员信息<b class="caret"></b></a>
         				<ul class="dropdown-menu">
-          				<li><a href="#">添加管理员</a></li>
-         				<li><a href="#">修改管理员信息</a></li>
+          				<li><a href="/admin/addAdmin">添加管理员</a></li>
+         				<li><a href="/admin/updateAdmin">修改管理员信息</a></li>
         				</ul>
 	      		</li>
 	   		</ul>
@@ -35,6 +35,10 @@
 </body>
 <script type="text/javascript" src="/estate/static/javascript/lib/jquery-2.0.3.js"></script>
 <script type="text/javascript" src="/estate/static/javascript/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="/estate/static/javascript/lib/jquery.form.js"></script>
+<script type="text/javascript" src="/estate/static/javascript/lib/jquery.validate.js"></script>
+<script type="text/javascript" src="/estate/static/javascript/lib/validate-ex.js"></script>
+<script type="text/javascript" src="/estate/static/javascript/addAdmin.js"></script>
 <script type="text/javascript">
 	$(function() {
 		var linkTo = $('#link').text();

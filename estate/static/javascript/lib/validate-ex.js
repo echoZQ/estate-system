@@ -29,6 +29,21 @@ jQuery.validator.addMethod("isTel", function(value,element) {
     return this.optional(element) || mobile.test(value);   
 }, "请正确填写电话");  
 
+//邮箱验证
+jQuery.validator.addMethod("isEmail", function(value,element) {   
+    var length = value.length;   
+    var mobile = /^(\w)+(\.\w+)*@(\w)+((\.\w+)+)$/;     
+    return this.optional(element) || mobile.test(value);   
+}, "请正确填写邮箱"); 
+
+//qq验证
+jQuery.validator.addMethod("isQq", function(value,element) {   
+    var length = value.length;   
+    var mobile = /^\s*[.0-9]{5,10}\s*$/;     
+    return this.optional(element) || mobile.test(value);   
+}, "请正确填写QQ号"); 
+
+
 //身份证号码的验证规则
 function isIdCardNo(num){ 
 　//　 if (isNaN(num)) {alert("输入的不是数字！"); return false;} 

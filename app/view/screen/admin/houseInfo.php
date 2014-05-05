@@ -3,7 +3,7 @@
 	<th>小区名称</th><th>发布人</th><th>发布时间</th><th>户型</th><th>楼层</th><th>面积</th><th>审核状态</th><th>操作</th>
   	<?php for($i = 0; $i < count($houses); $i++) {?>
   	<tr>
-  		<td class="estateName"><a href="/admin/houseDetail?id=<?php echo $houses[$i]['id'].'&publisher='.$publishers[$i].'&isCheck=true';?>"><?php echo $houses[$i]['estateName'];?></a></td>
+  		<td class="estateName"><a href="/admin/houseDetail?id=<?php echo $houses[$i]['id'].'&publisher='.$publishers[$i].'&isCheck=true';;?>"><?php echo $houses[$i]['estateName'];?></a></td>
   		<td><?php echo $publishers[$i];?></td>
   		<td><?php echo $houses[$i]['publishTime'];?></td>
   		<td><?php echo $houses[$i]['houseHold'];?></td>

@@ -34,3 +34,10 @@ body #carousel .item img {
 body .pagination {
   margin-left: 1100px;
 }
+body form {
+  width: 40%;
+}
+
+.err {
+  color: red;
+}

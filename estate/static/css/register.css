@@ -26,16 +26,13 @@ body #register_form {
   padding: 20px;
   font-size: 14px;
 }
-body #register_form .account_info input, body #register_form .psw_info input {
+body #register_form .account_info input, body #register_form .psw_info input, body #register_form .email_info input, body #register_form .mobile_info input, body #register_form .qq_info input {
   width: 300px;
   height: 35px;
   border: 1px solid green;
 }
-body #register_form .psw_info, body #register_form .service_info {
+body #register_form .psw_info, body #register_form .email_info, body #register_form .mobile_info, body #register_form .qq_info {
   margin: 30px 0px;
-}
-body #register_form .service_info span {
-  color: green;
 }
 body #register_form .login_button input {
   width: 300px;
