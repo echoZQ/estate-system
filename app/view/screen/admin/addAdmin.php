@@ -1,4 +1,5 @@
 <form id="adminRegister" role="form" action="doAddAdmin" method="post">
+<h3>添加管理员</h3>
   <div class="form-group">
     <label for="username">用户名</label>
     <input type="text" class="form-control" id="username" name="username" maxlength="20" minlength="4" required="required" />
@@ -12,6 +13,11 @@
   <div class="form-group">
     <label for="email">邮箱</label>
     <input type="text" class="form-control" id="email" name="email" required="required" />
+    <div class="err_box"></div>
+  </div>
+  <div class="form-group">
+    <label for="mobile">手机号</label>
+    <input type="text" class="form-control" id="mobile" name="mobile" required="required" />
     <div class="err_box"></div>
   </div>
   <div class="checkbox">

@@ -108,7 +108,7 @@ class AdminController extends Controller {
 				return self::_alertRedirect("删除失败!");
 			}
 		}else {
-			return self::_alertRedirect("您没有".$power."权限!");
+			return self::_alertRedirect("您没有".$power."!");
 		}
 	}
 	
@@ -135,7 +135,7 @@ class AdminController extends Controller {
 				return self::_alertRedirect("审核失败!");
 			}
 		}else {
-			return self::_alertRedirect("您没有".$power."权限!");
+			return self::_alertRedirect("您没有".$power."!");
 		}
 		
 	}
@@ -234,7 +234,7 @@ class AdminController extends Controller {
 				return self::_alertRedirect("删除失败!");
 			}
 		}else {
-			return self::_alertRedirect("您没有".$power."权限!");
+			return self::_alertRedirect("您没有".$power."!");
 		}
 	}
 	
@@ -247,7 +247,7 @@ class AdminController extends Controller {
 		
 			$_SESSION['link'] = "adminInfo";
 		}else {
-			return self::_alertRedirect("您没有".$power."权限!");
+			return self::_alertRedirect("您没有".$power."!");
 		}
 	}
 	
@@ -255,6 +255,7 @@ class AdminController extends Controller {
 		$username = $_POST['username'];
 		$password = $_POST['password'];
 		$email = $_POST['email'];
+		$mobile = $_POST['mobile'];
 		
 		if(isset($_REQUEST['power'])) {
 			$power = "";
@@ -268,6 +269,7 @@ class AdminController extends Controller {
 		$data['username'] = $username;
 		$data['password'] = md5($password);
 		$data['email'] = $email;
+		$data['mobile'] = $mobile;
 		$data['power'] = $power;
 		
 		$check = $this->checkAddAdmin($data, $password);
@@ -277,7 +279,7 @@ class AdminController extends Controller {
 			$res = $adminModel->add($data);
 			
 			if($res) {
-				return self::_genJSONResult(['code' => 0, 'msg' => '添加成功!', 'redirect' => '/admin/updateAdmin']);
+				return self::_genJSONResult(['code' => 0, 'msg' => '添加成功!', 'redirect' => '/admin/adminList']);
 			}else {
 				return self::_genJSONResult(['code' => -1, 'msg' => '添加失败!']);
 			}
@@ -285,13 +287,30 @@ class AdminController extends Controller {
 		
 	}
 	
-	public function updateAdmin($data) {
+	public function adminList($page = 1) {
 		$this->redirect();
 		
 		$_SESSION['link'] = "adminInfo";
+		
+		static $pageSize = 8;
+		static $orderby = "id desc";
+		$data = array();
+		
+		$adminModel = new AdminModel();
+		$admins = $adminModel->getListByMap($data);
+		
+		$count = count($admins);
+		$pages = ceil($count / $pageSize);
+		
+		$adminsInfo = $adminModel->getListByMap($data, $page, $pageSize, $orderby);
+		$countAdminInfo = count($adminsInfo);
+		
+		self::_bindValue("username", $_SESSION['admin']);
+		self::_bindValue("admins", $adminsInfo);
+		self::_bindValue("pages", $pages);
 	}
 	
-	public function checkAddAdmin($data, $password) {
+	private function checkAddAdmin($data, $password) {
 		self::_setExceptionHandler('HFB\app\exception\JSONExceptionHandler');
 		
 		if("" == $data['username']) {
@@ -308,6 +327,9 @@ class AdminController extends Controller {
 		if("" == $password) {
 			throw new Exception("密码不能为空!");
 		}
+		if("" == $data['mobile']) {
+			throw new Exception("手机号不能为空!");
+		}
 		if("" == $data['email']) {
 			throw new Exception("邮箱不能为空!");
 		}else {
@@ -320,6 +342,97 @@ class AdminController extends Controller {
 			}
 		}
 		
+		return TRUE;
+	}
+	
+	public function deleteAdminInfo() {
+		$power = "管理员管理权限";
+		$check = $this->checkPower($power);
+		
+		if($check) {
+			$map['id'] = $_GET['id'];
+			
+			$adminModel = new AdminModel();
+			$res = $adminModel->delete($map);
+			
+			if($res) {
+				return self::_alertRedirect("删除成功!");
+			}else {
+				return self::_alertRedirect("删除失败!");
+			}
+		}else {
+			return self::_alertRedirect("您没有".$power."!");
+		}
+	}
+	
+	public function updateAdmin() {
+		$power = "管理员管理权限";
+		$check = $this->checkPower($power);
+		
+		if($check) {
+			$map['id'] = $_GET['id'];
+			
+			$adminModel = new AdminModel();
+			$res = $adminModel->getByMap($map);
+			
+			return self::_bindValue("admin", $res);
+		}else {
+			return self::_alertRedirect("您没有".$power."!");
+		}
+	}
+	
+	public function doUpdateAdmin() {
+		$power = "管理员管理权限";
+		$check = $this->checkPower($power);
+		
+		if($check) {
+			$map['id'] = $_GET['id'];
+			if(isset($_REQUEST['power'])) {
+				$power = "";
+				foreach($_POST['power'] as $checkbox) {
+					$power .= $checkbox.";";
+				}
+			}else {
+				$power = "";
+			}
+			
+			$data['email'] = $_POST['email'];
+			$data['mobile'] = $_POST['mobile'];
+			$data['power'] = $power;
+			
+			$check = $this->checkUpdateAdmin($data);
+			
+			$adminModel = new AdminModel();
+			$res = $adminModel->update($data, $map);
+				
+			if($res) {
+				return self::_genJSONResult(['code' => 0, 'msg' => '更新成功!', 'redirect' => '/admin/adminList']);
+			}else {
+				return self::_genJSONResult(['code' => -1, 'msg' => '更新失败!']);
+			}
+		}else {
+			return self::_alertRedirect("您没有".$power."!");
+		}
+	}
+	
+	private function checkUpdateAdmin($data) {
+		self::_setExceptionHandler('HFB\app\exception\JSONExceptionHandler');
+	
+		if("" == $data['mobile']) {
+			throw new Exception("手机号不能为空!");
+		}
+		if("" == $data['email']) {
+			throw new Exception("邮箱不能为空!");
+		}else {
+			$adminModel = new AdminModel();
+			$data['email'] = $data['email'];
+			$res = $adminModel->getByMap($data);
+	
+			if($res) {
+				throw new Exception("该邮箱已被注册!");
+			}
+		}
+	
 		return TRUE;
 	}
 	
@@ -338,4 +451,10 @@ class AdminController extends Controller {
 		}
 		return $flag;
 	}
+	
+	public function loginOut() {
+		$_SESSION['admin'] = null;
+		
+		return self::_alertRedirect("欢迎下次登录!", "/admin/login");
+	} 
 }
