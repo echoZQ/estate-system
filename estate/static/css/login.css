@@ -29,15 +29,18 @@ body #login_form #blc_title h6 {
 body #login_form #blc_title a {
   color: green;
 }
-body #login_form .account_info input, body #login_form .psw_info input {
+body #login_form .account_info input, body #login_form .psw_info input, body #login_form .email_info input {
   width: 300px;
   height: 35px;
   border: 1px solid green;
 }
-body #login_form .psw_info, body #login_form .remember_info {
+body #login_form .account_info a, body #login_form .psw_info a, body #login_form .email_info a {
+  color: green;
+}
+body #login_form .psw_info, body #login_form .email_info {
   margin: 30px 0px;
 }
-body #login_form .psw_info .forget_psw, body #login_form .remember_info .forget_psw {
+body #login_form .psw_info .forget_psw, body #login_form .email_info .forget_psw {
   margin-left: 198px;
   font-size: 12px;
 }

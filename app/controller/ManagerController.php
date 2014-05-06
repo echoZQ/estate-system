@@ -57,23 +57,19 @@ class ManagerController extends Controller {
     }
 	
     public function doUpdate() {
-    		$id = $_POST['id'];
-    		$houseprice = $_POST['houseprice'];
-    		$ownername = $_POST['ownername'];
-    		$ownermobile = $_POST['ownermobile'];
-    		
-    		$data['sellPrice'] = $houseprice;
-    		$data['ownerName'] = $ownername;
-    		$data['ownerMobile'] = $ownermobile;
+    		$data['sellPrice'] = $_POST['houseprice']."万";
+    		$data['ownerName'] = $_POST['ownername'];
+    		$data['ownerMobile'] = $_POST['ownermobile'];
+    		$data['isSelled'] = $_POST['isSelled'];
     		
     		$check = $this->checkUpdate($data);
     		
-    		$map['id'] = $id;
+    		$map['id'] = $_POST['id'];
     		$houseInfoModel = new HouseinfoModel();
     		$res = $houseInfoModel->update($data, $map);
     		
     		if($res) {
-    			return self::_genJSONResult(['code' => "0", 'msg' => "更新成功!", 'redirect' => "/"]);
+    			return self::_genJSONResult(['code' => "0", 'msg' => "更新成功!", 'redirect' => "/manager/update?id=".$_POST['id']]);
     		}else {
     			return self::_genJSONResult(['code' => "-1", 'msg' => "更新失败!", 'redirect' => "/"]);    		
     		}

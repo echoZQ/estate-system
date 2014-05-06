@@ -1,7 +1,7 @@
 body {
 	#container {
 		position: absolute;
-		top: 50px;
+		top: 60px;
 		bottom: 0px;
 		width: 100%;
 		padding: 30px;
@@ -16,6 +16,7 @@ body {
 	table {
 		caption {
 			font-size: 22px;
+			margin-bottom: 10px;
 		}
 		td,th {
 			text-align: center;
@@ -37,7 +38,7 @@ body {
 		}
 	}
 	.pagination {
-		margin-left: 1100px;
+		margin-left: 1170px;
 	}
 	form {
 		width: 40%;

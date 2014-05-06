@@ -2,13 +2,18 @@
   width: 990px;
   margin: 0 auto;
   margin-top: 20px;
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
 }
 #houseInfoList #houseBox {
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  box-flex: 1;
   width: 700px;
   border: 1px solid #efefef;
 }
 #houseInfoList #houseBox .house {
-  width: 700px;
   height: 240px;
   padding: 0px 0px 20px 0px;
   border-bottom: 2px dashed #efefef;
@@ -52,5 +57,37 @@
 }
 #houseInfoList #houseBox .house .avgPrice span {
   font-size: 26px;
+  color: orange;
+}
+#houseInfoList #infoBox {
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  box-flex: 1;
+  width: 270px;
+  margin-left: 10px;
+  padding: 8px;
+  border: 1px solid #efefef;
+}
+#houseInfoList #infoBox .sellrecord {
+  padding: 0px 0px 10px 0px;
+}
+#houseInfoList #infoBox .sellrecord .sellBox {
+  height: 120px;
+  margin-top: 5px;
+  padding: 8px;
+}
+#houseInfoList #infoBox .sellrecord .sellBox img {
+  width: 100px;
+  height: 100px;
+}
+#houseInfoList #infoBox .sellrecord .table {
+  position: relative;
+  top: -100px;
+  left: 120px;
+}
+#houseInfoList #infoBox .sellrecord .table tr td {
+  padding-right: 10px;
+}
+#houseInfoList #infoBox .sellrecord .table tr td a {
   color: orange;
 }

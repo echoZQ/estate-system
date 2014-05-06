@@ -19,7 +19,6 @@
 			</div>
 			<div class="psw_info">
 				<label>管理员密码:</label>
-				<label class="forget_psw"><a href="/login/forgetPsw">忘记密码?</a></label>
 				<br>
 				<span><input type="password" placeholder="  请输入密码" id="password" name="password" minlength="6" required="required" /></span>
 				<div class="err_box"></div>

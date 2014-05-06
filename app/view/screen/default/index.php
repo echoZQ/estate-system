@@ -24,24 +24,44 @@
 				</div>
 			<?php }?>
 		</div>
-		<div class="pagination">
-			<ul class="pager">
-				<li><?php echo $prevPage;?></li>
-				<li><?php echo $nextPage;?></li>
-				<li>当前第<?php echo $currentPage;?>页</li>
-			</ul>
+		<div id="infoBox">
+			<div class="sellrecord">
+				<h3>最近成交记录</h3>
+				<?php for($i=0; $i<count($sellInfo); $i++) {
+					if($i < 8) {
+					  $imgs = explode(";", $sellInfo[$i]['img'])[0];?>
+				<div class="sellBox">
+					<img src="<?php if("" !== $imgs) echo $imgs;else echo "/upload/default.jpg";?>" />
+					<div class="table">
+						<table>
+							<tr><td>小区</td><td><?php echo $sellInfo[$i]['estateName'];?></td></tr>
+							<tr><td>户型</td><td><?php echo $sellInfo[$i]['houseHold'];?></td></tr>
+							<tr><td>面积</td><td><?php echo $sellInfo[$i]['houseArea'];?></td></tr>
+							<tr><td>售价</td><td><?php echo $sellInfo[$i]['sellPrice'];?></td></tr>
+							<tr><td>房主</td><td><a href="/default/sellerHouses?seller=<?php echo $seller[$i]."&sellerId=".$sellInfo[$i]['sellerId'];?>"><?php echo $seller[$i];?></a></td></tr>
+						</table>
+					</div>
+				</div>
+				<?php } }?>
+			</div>
 		</div>
-		<div class="pagination">
-			<ul class="pager">
-				<li>共<?php echo $pagesNum;?>页</li>
-				<li>跳转到第<input type="text" id="page" name="page">页</li>
-				<li><input type="button" class="linkTo" value="跳转"></li>
-			</ul>
-		</div>
+	</div>
+	<div class="pagination">
+		<ul class="pager">
+			<li><?php echo $prevPage;?></li>
+			<li><?php echo $nextPage;?></li>
+			<li>当前第<?php echo $currentPage;?>页</li>
+		</ul>
+	</div>
+	<div class="pagination">
+		<ul class="pager">
+			<li>共<?php echo $pagesNum;?>页</li>
+			<li>跳转到第<input type="text" id="page" name="page">页</li>
+			<li><input type="button" class="linkTo" value="跳转"></li>
+		</ul>
 	</div>
 	<div id="public_info">
 		<a href="/default/publish"><img alt="我要发房" src="/estate/static/images/public.png"></a>
-		<a href=""><img alt="意见反馈" src="/estate/static/images/advice.png"></a>
 	</div>
 </body>
 <script type="text/javascript" src="/estate/static/javascript/lib/jquery-2.0.3.js"></script>

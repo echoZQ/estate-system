@@ -60,7 +60,7 @@ class AdminController extends Controller {
 	
 		$_SESSION['link'] = "houseInfo";
 		
-		static $pageSize = 8;
+		static $pageSize = 10;
 		static $orderby = "id desc";
 		$data['isSelled'] = "0";
 		
@@ -157,7 +157,7 @@ class AdminController extends Controller {
 		$this->redirect();
 		
 		$_SESSION['link'] = "sellRecord";
-		static $pageSize = 8;
+		static $pageSize = 10;
 		static $orderby = "id desc";
 		$data['isSelled'] = "1";
 		
@@ -194,7 +194,7 @@ class AdminController extends Controller {
 		
 		$_SESSION['link'] = "userInfo";
 		
-		static $pageSize = 8;
+		static $pageSize = 10;
 		static $orderby = "id desc";
 		$data = array();
 		
@@ -292,7 +292,7 @@ class AdminController extends Controller {
 		
 		$_SESSION['link'] = "adminInfo";
 		
-		static $pageSize = 8;
+		static $pageSize = 10;
 		static $orderby = "id desc";
 		$data = array();
 		

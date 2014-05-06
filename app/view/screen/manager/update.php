@@ -67,7 +67,9 @@
 				</div>
 				<div class="box">
 					<label class="label">是否售出</label>
-					<input type="text" value="<?php if(1 == $houseInfo['isSelled']) echo "已售出"; else echo "未售出"?>" readonly="readonly"  />
+					<input type="radio" name="isSelled" style="width: 10px;" value="1" <?php if($houseInfo['isSelled'] == 1){echo "checked";}?> />已售
+					<input type="radio" name="isSelled" style="width: 10px;" value="0" <?php if($houseInfo['isSelled'] == 0){echo "checked";}?> />未售
+					<div class="info">请及时更新销售信息</div>
 				</div>
 				<div class="box_btn">
 					<input type="submit" value="提交更新" />

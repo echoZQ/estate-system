@@ -20,14 +20,10 @@
 			</div>
 			<div class="psw_info">
 				<label>密码:</label>
-				<label class="forget_psw"><a href="/login/forgetPsw">忘记密码?</a></label>
 				<br>
 				<span><input type="password" placeholder="  请输入密码" id="password" name="password" minlength="6" required="required" /></span>
 				<div class="err_box"></div>
 			</div>
-<!-- 			<div class="remember_info"> -->
-<!-- 				<input type="checkbox" id="remember" name="remember"> 记住密码 -->
-<!-- 			</div> -->
 			<div class="login_button">
 				<input type="submit" value="登陆">
 			</div>

@@ -54,3 +54,6 @@ body #content table td span {
   background: orange;
   color: #fff;
 }
+body #content .notice_info {
+  margin-left: 50px;
+}

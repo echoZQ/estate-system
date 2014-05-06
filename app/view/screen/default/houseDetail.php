@@ -49,18 +49,20 @@
 				<td><?php echo $houseInfo['sellPrice'];?></td>
 				<td class="even">建造时间</td>
 				<td><?php echo $houseInfo['buildTime'];?></td>
+				<td class="even">是否售出</td>
+				<td><?php if(0 == $houseInfo['isSelled']) echo "未售出";else echo "已售出;"?></td>
 			</tr>
 		</table>
 		<table id="detailText">
 			<tr><td class="even">联系人</td><td><?php echo $houseInfo['ownerName'];?></td></tr>
+			<tr><td class="even">发布人</td><td><a href="/default/sellerHouses?seller=<?php echo $publisher."&sellerId=".$houseInfo['sellerId'];?>"><?php echo $publisher;?></a></td></tr>
 			<tr><td class="even">联系电话</td><td><?php echo $houseInfo['ownerMobile'];?></td></tr>
 			<tr><td class="even">详细地址</td><td><?php echo $houseInfo['address'];?></td></tr>
 		</table>	
 		</div>
 	</div>
 	<div id="public_info">
-		<a href="/default/publish"><img alt="我要发房" src="/estate/static/images/public.png"></a>
-		<a href=""><img alt="意见反馈" src="/estate/static/images/advice.png"></a>
+		<a href="/default/publish"><img alt="我要发房" src="/estate/static/images/public.png"></a>	
 	</div>
 </body>
 <script type="text/javascript" src="/estate/static/javascript/lib/jquery-2.0.3.js"></script>

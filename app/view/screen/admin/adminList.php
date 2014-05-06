@@ -3,7 +3,7 @@
 	<th>用户名</th><th>邮箱</th><th>权限</th><th>操作</th>
   	<?php for($i = 0; $i < count($admins); $i++) {?>
   	<tr>
-  		<td class="estateName"><a href="/admin/houseDetail?id=<?php echo $admins[$i]['id'];?>"><?php echo $admins[$i]['username'];?></a></td>
+  		<td><?php echo $admins[$i]['username'];?></td>
   		<td><?php echo $admins[$i]['email'];?></td>
   		<td><?php echo $admins[$i]['power'];?></td>
   		<td>
@@ -16,7 +16,7 @@
 <ul class="pagination">
   <li><a href="#">&laquo;</a></li>
   <?php for($i=1; $i<=$pages; $i++) {?>
-  <li><a href="/admin/houseInfo?page=<?php echo $i;?>"><?php echo $i;?></a></li>
+  <li><a href="/admin/adminList?page=<?php echo $i;?>"><?php echo $i;?></a></li>
   <?php }?>
   <li><a href="#">&raquo;</a></li>
 </ul>

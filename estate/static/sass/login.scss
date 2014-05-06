@@ -32,14 +32,17 @@ body {
 				color: green;
 			}
 		}
-		.account_info, .psw_info {
+		.account_info, .psw_info, .email_info {
 			input {
 				width: 300px;
 				height: 35px;
 				border: 1px solid green;
 			}
+			a {
+				color: green;
+			}
 		}
-		.psw_info, .remember_info {
+		.psw_info, .email_info {
 			margin: 30px 0px;
 			.forget_psw {
 				margin-left: 198px;

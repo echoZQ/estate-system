@@ -47,7 +47,7 @@ $margin: 0 auto;
 	}
 	#detailText {
 		position: absolute;
-		top: 350px;
+		top: 300px;
 		left: 820px;
 		width: 300px;
 		height: 120px;
@@ -56,6 +56,9 @@ $margin: 0 auto;
 			padding-left: 20px;
 			font-size: 18px;
 			background: #efefef; 
+		}
+		a {
+			color: orange;
 		}
 	}
 }

@@ -10,7 +10,7 @@ use HFB\app\model\db\UserModel;
 class DefaultController extends Controller {
 
     public function index($page = 1) {
-    		static $pageSize = 2;
+    		static $pageSize = 5;
     		static $orderBy = "id desc";
 	    	$houseInfoModel = new HouseinfoModel();
 	    	
@@ -43,11 +43,28 @@ class DefaultController extends Controller {
 	    	
 	    	$houseList = $houseInfoModel->getListByMap($map, $page, $pageSize, $orderBy);
 	    	
+	    	//最近成交记录
+	    	$data['isSelled'] = "1";
+	    	$array = array();
+	    	
+	    $sellInfo =	$houseInfoModel->getListByMap($data);
+	    
+	    foreach ($sellInfo as $sell) {
+			$data2['id'] = $sell['sellerId'];
+
+	    		$userModel = new UserModel();
+	    		$res = $userModel->getByMap($data2);
+	    	
+	    		array_push($array,$res['username']);
+	    }
+	    	
 	    	self::_bindValue("houseInfo", $houseList);
 	    	self::_bindValue("prevPage", $prevPage);
 	    	self::_bindValue("nextPage", $nextPage);
 	    	self::_bindValue("pagesNum", $pages);
 	    	self::_bindValue("currentPage", $page);
+	    	self::_bindValue("sellInfo", $sellInfo);
+	    	self::_bindValue("seller", $array);
     }
     
     public function publish() {
@@ -154,8 +171,28 @@ class DefaultController extends Controller {
     		$houseInfoModel = new HouseinfoModel();
     		
     		$res = $houseInfoModel->getByMap($map);
+    		$data['id'] = $res['sellerId'];
     		
-    		return self::_bindValue("houseInfo", $res);
+    		$userModel = new UserModel();
+    		$users = $userModel->getByMap($data);
+    		
+    		self::_bindValue("houseInfo", $res);
+    		self::_bindValue("publisher", $users['username']);
+    }
+    
+    public function sellerHouses() {
+    		$seller = $_GET['seller'];
+    		$map['id'] = $_GET['sellerId'];
+    		$map['checkPass'] = "1";
+    		
+    		$orderBy = 'id desc';
+        		
+    		$houseInfoModel = new HouseinfoModel();
+    		
+    		$houseInfo = $houseInfoModel->getListByMap($map,"","",$orderBy);
+    		
+    		self::_bindValue("houseInfo", $houseInfo);
+    		self::_bindValue("seller", $seller);
     }
 
 }

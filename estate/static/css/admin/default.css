@@ -1,6 +1,6 @@
 body #container {
   position: absolute;
-  top: 50px;
+  top: 60px;
   bottom: 0px;
   width: 100%;
   padding: 30px;
@@ -14,6 +14,7 @@ body .welcome {
 }
 body table caption {
   font-size: 22px;
+  margin-bottom: 10px;
 }
 body table td, body table th {
   text-align: center;
@@ -32,7 +33,7 @@ body #carousel .item img {
   height: 400px;
 }
 body .pagination {
-  margin-left: 1100px;
+  margin-left: 1170px;
 }
 body form {
   width: 40%;
