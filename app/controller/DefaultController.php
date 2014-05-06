@@ -182,8 +182,7 @@ class DefaultController extends Controller {
     
     public function sellerHouses() {
     		$seller = $_GET['seller'];
-    		$map['id'] = $_GET['sellerId'];
-    		$map['checkPass'] = "1";
+    		$map['sellerId'] = $_GET['sellerId'];
     		
     		$orderBy = 'id desc';
         		

@@ -17,10 +17,6 @@
 			<div class="update_box">
 				<input type="hidden" value="<?php echo $houseInfo['id'];?>" name="id" id="houseID">
 				<div class="box">
-					<label class="label">发布类型</label>
-					<input type="text" value="<?php echo $houseInfo['type'];?>" readonly="readonly" />
-				</div>
-				<div class="box">
 					<label class="label">小区名称</label>
 					<input type="text" value="<?php echo $houseInfo['estateName'];?>"  readonly="readonly" />
 				</div>
