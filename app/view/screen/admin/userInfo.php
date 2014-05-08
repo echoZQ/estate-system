@@ -3,7 +3,7 @@
 	<th>用户名</th><th>邮箱</th><th>联系电话</th><th>qq</th><th>注册时间</th><th>操作</th>
   	<?php for($i = 0; $i < count($users); $i++) {?>
   	<tr>
-  		<td><?php echo $users[$i]['username'];?></td>
+  		<td><a href="/admin/published?id=<?php echo $users[$i]['id'].'&publisher='.$users[$i]['username'];?>"><?php echo $users[$i]['username'];?></a></td>
   		<td><?php echo $users[$i]['email'];?></td>
   		<td><?php echo $users[$i]['mobile'];?></td>
   		<td><?php echo $users[$i]['qq'];?></td>

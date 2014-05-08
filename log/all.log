@@ -30341,3 +30341,1275 @@
 [2014-05-06 22:23:10] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/manager/index.php
 [2014-05-06 22:23:10] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
 [2014-05-06 22:23:10] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.010396957397461 secs
+[2014-05-06 22:25:32] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:25:32] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/index
+[2014-05-06 22:25:32] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/login/index.php
+[2014-05-06 22:25:32] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-06 22:25:32] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.018438100814819 secs
+[2014-05-06 22:25:34] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:25:34] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /register/index
+[2014-05-06 22:25:34] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/register/index.php
+[2014-05-06 22:25:34] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-06 22:25:34] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.019201993942261 secs
+[2014-05-06 22:25:36] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:25:36] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/loginOut
+[2014-05-06 22:25:36] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default.php
+[2014-05-06 22:25:36] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-06 22:25:36] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.007047176361084 secs
+[2014-05-06 22:25:36] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:25:36] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-06 22:25:36] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-06 22:25:36] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[5,"PARAM_LOB"]]
+[2014-05-06 22:25:36] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-06 22:25:36] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-06 22:25:36] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-06 22:25:36] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-06 22:25:36] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-06 22:25:36] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-06 22:25:36] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.014633893966675 secs
+[2014-05-06 22:25:38] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:25:38] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/sellerHouses
+[2014-05-06 22:25:38] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc]. with Params: [["21","PARAM_STR"]]
+[2014-05-06 22:25:38] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/sellerHouses.php
+[2014-05-06 22:25:38] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-06 22:25:38] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012288093566895 secs
+[2014-05-06 22:25:39] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:25:39] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/houseDetail
+[2014-05-06 22:25:39] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["11","PARAM_STR"]]
+[2014-05-06 22:25:39] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-06 22:25:39] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/houseDetail.php
+[2014-05-06 22:25:39] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-06 22:25:39] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.013212919235229 secs
+[2014-05-06 22:25:46] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:25:46] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/sellerHouses
+[2014-05-06 22:25:46] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc]. with Params: [["21","PARAM_STR"]]
+[2014-05-06 22:25:46] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/sellerHouses.php
+[2014-05-06 22:25:46] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-06 22:25:46] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0097408294677734 secs
+[2014-05-06 22:25:48] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:25:48] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-06 22:25:49] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-06 22:25:49] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[5,"PARAM_LOB"]]
+[2014-05-06 22:25:49] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-06 22:25:49] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-06 22:25:49] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-06 22:25:49] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-06 22:25:49] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-06 22:25:49] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-06 22:25:49] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.014646053314209 secs
+[2014-05-06 22:25:50] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:25:50] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/houseDetail
+[2014-05-06 22:25:50] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["24","PARAM_STR"]]
+[2014-05-06 22:25:50] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["33","PARAM_STR"]]
+[2014-05-06 22:25:50] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/houseDetail.php
+[2014-05-06 22:25:50] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-06 22:25:50] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012035131454468 secs
+[2014-05-06 22:25:52] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:25:52] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-06 22:25:52] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-06 22:25:52] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[5,"PARAM_LOB"]]
+[2014-05-06 22:25:52] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-06 22:25:52] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-06 22:25:52] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-06 22:25:52] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-06 22:25:52] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-06 22:25:52] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-06 22:25:52] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.016803979873657 secs
+[2014-05-06 22:25:54] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:25:54] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-06 22:25:54] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-06 22:25:54] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[5,"PARAM_LOB"],[5,"PARAM_LOB"]]
+[2014-05-06 22:25:54] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-06 22:25:54] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-06 22:25:54] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-06 22:25:54] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-06 22:25:54] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-06 22:25:54] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-06 22:25:54] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.014415979385376 secs
+[2014-05-06 22:25:57] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:25:57] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-06 22:25:57] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-06 22:25:57] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[10,"PARAM_LOB"],[5,"PARAM_LOB"]]
+[2014-05-06 22:25:57] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-06 22:25:57] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-06 22:25:57] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-06 22:25:57] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-06 22:25:57] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-06 22:25:57] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-06 22:25:57] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.013308048248291 secs
+[2014-05-06 22:26:00] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:26:00] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /register/index
+[2014-05-06 22:26:00] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/register/index.php
+[2014-05-06 22:26:00] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-06 22:26:00] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0069060325622559 secs
+[2014-05-06 22:26:02] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:26:02] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/index
+[2014-05-06 22:26:02] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/login/index.php
+[2014-05-06 22:26:02] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-06 22:26:02] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0096859931945801 secs
+[2014-05-06 22:26:08] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:26:08] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/doLogin
+[2014-05-06 22:26:08] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `username` = ? ]. with Params: [["echo","PARAM_STR"]]
+[2014-05-06 22:26:08] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0082659721374512 secs
+[2014-05-06 22:26:08] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:26:08] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-06 22:26:08] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-06 22:26:08] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[5,"PARAM_LOB"]]
+[2014-05-06 22:26:08] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-06 22:26:08] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-06 22:26:08] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-06 22:26:08] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-06 22:26:08] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-06 22:26:08] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-06 22:26:08] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.017135858535767 secs
+[2014-05-06 22:26:10] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:26:10] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/publish
+[2014-05-06 22:26:10] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/publish.php
+[2014-05-06 22:26:10] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-06 22:26:10] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0091168880462646 secs
+[2014-05-06 22:26:19] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:26:19] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/login
+[2014-05-06 22:26:19] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/login.php
+[2014-05-06 22:26:19] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/login.php
+[2014-05-06 22:26:19] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0079281330108643 secs
+[2014-05-06 22:26:26] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/doLogin
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `admin` where 1 and `username` = ? ]. with Params: [["admin","PARAM_STR"]]
+[2014-05-06 22:26:26] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.019643068313599 secs
+[2014-05-06 22:26:26] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseInfo
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["33","PARAM_STR"]]
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["31","PARAM_STR"]]
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["34","PARAM_STR"]]
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["25","PARAM_STR"]]
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseInfo.php
+[2014-05-06 22:26:26] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-06 22:26:26] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.029281139373779 secs
+[2014-05-06 22:26:28] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:26:28] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/addAdmin
+[2014-05-06 22:26:28] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `admin` where 1 and `username` = ? ]. with Params: [["admin","PARAM_STR"]]
+[2014-05-06 22:26:28] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/addAdmin.php
+[2014-05-06 22:26:28] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-06 22:26:28] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0098059177398682 secs
+[2014-05-06 22:26:30] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:26:30] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/adminList
+[2014-05-06 22:26:30] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `admin` where 1]. with Params: []
+[2014-05-06 22:26:30] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `admin` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-06 22:26:30] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/adminList.php
+[2014-05-06 22:26:30] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-06 22:26:30] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.019115924835205 secs
+[2014-05-06 22:26:30] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:26:30] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-06 22:26:30] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-06 22:26:30] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-06 22:26:30] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-06 22:26:30] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-06 22:26:30] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.013277053833008 secs
+[2014-05-06 22:26:31] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:26:31] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/sellRecord
+[2014-05-06 22:26:31] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-06 22:26:31] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["1","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-06 22:26:31] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-06 22:26:31] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-06 22:26:31] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-06 22:26:31] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/sellRecord.php
+[2014-05-06 22:26:31] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-06 22:26:31] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.021629095077515 secs
+[2014-05-06 22:26:32] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-06 22:26:32] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseInfo
+[2014-05-06 22:26:32] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-06 22:26:32] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-06 22:26:32] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-06 22:26:32] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["33","PARAM_STR"]]
+[2014-05-06 22:26:32] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["31","PARAM_STR"]]
+[2014-05-06 22:26:32] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["34","PARAM_STR"]]
+[2014-05-06 22:26:32] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-06 22:26:32] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-06 22:26:32] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-06 22:26:32] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-06 22:26:32] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["25","PARAM_STR"]]
+[2014-05-06 22:26:32] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-06 22:26:32] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseInfo.php
+[2014-05-06 22:26:32] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-06 22:26:32] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.017906188964844 secs
+[2014-05-07 09:12:38] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:12:38] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-07 09:12:38] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-07 09:12:38] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[5,"PARAM_LOB"]]
+[2014-05-07 09:12:38] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-07 09:12:38] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-07 09:12:38] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-07 09:12:38] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-07 09:12:38] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-07 09:12:38] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-07 09:12:38] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.08499002456665 secs
+[2014-05-07 09:12:53] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:12:53] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/houseDetail
+[2014-05-07 09:12:53] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["25","PARAM_STR"]]
+[2014-05-07 09:12:53] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-07 09:12:53] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/houseDetail.php
+[2014-05-07 09:12:53] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-07 09:12:53] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.026654005050659 secs
+[2014-05-07 09:12:56] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:12:56] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/publish
+[2014-05-07 09:12:56] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/publish.php
+[2014-05-07 09:12:56] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-07 09:12:56] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.019521951675415 secs
+[2014-05-07 09:12:57] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:12:57] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/index
+[2014-05-07 09:12:57] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/login/index.php
+[2014-05-07 09:12:57] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-07 09:12:57] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0092878341674805 secs
+[2014-05-07 09:13:04] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:04] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/doLogin
+[2014-05-07 09:13:04] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `username` = ? ]. with Params: [["echo","PARAM_STR"]]
+[2014-05-07 09:13:04] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.017102003097534 secs
+[2014-05-07 09:13:04] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:04] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-07 09:13:04] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-07 09:13:04] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[5,"PARAM_LOB"]]
+[2014-05-07 09:13:04] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-07 09:13:04] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-07 09:13:04] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-07 09:13:04] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-07 09:13:04] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-07 09:13:04] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-07 09:13:04] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.013867139816284 secs
+[2014-05-07 09:13:08] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:08] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/houseDetail
+[2014-05-07 09:13:08] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["25","PARAM_STR"]]
+[2014-05-07 09:13:08] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-07 09:13:08] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/houseDetail.php
+[2014-05-07 09:13:08] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-07 09:13:08] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.014333009719849 secs
+[2014-05-07 09:13:12] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:12] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/sellerHouses
+[2014-05-07 09:13:12] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc]. with Params: [["27","PARAM_STR"]]
+[2014-05-07 09:13:12] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/sellerHouses.php
+[2014-05-07 09:13:12] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-07 09:13:12] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.021931886672974 secs
+[2014-05-07 09:13:14] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:14] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/houseDetail
+[2014-05-07 09:13:14] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["12","PARAM_STR"]]
+[2014-05-07 09:13:14] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-07 09:13:14] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/houseDetail.php
+[2014-05-07 09:13:14] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-07 09:13:14] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.013041973114014 secs
+[2014-05-07 09:13:18] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:18] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /register/index
+[2014-05-07 09:13:18] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/register/index.php
+[2014-05-07 09:13:18] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-07 09:13:18] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.019747972488403 secs
+[2014-05-07 09:13:26] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:26] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/login
+[2014-05-07 09:13:26] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/login.php
+[2014-05-07 09:13:26] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/login.php
+[2014-05-07 09:13:26] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0093479156494141 secs
+[2014-05-07 09:13:33] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/doLogin
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `admin` where 1 and `username` = ? ]. with Params: [["admin","PARAM_STR"]]
+[2014-05-07 09:13:33] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.018673896789551 secs
+[2014-05-07 09:13:33] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseInfo
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["33","PARAM_STR"]]
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["31","PARAM_STR"]]
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["34","PARAM_STR"]]
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["25","PARAM_STR"]]
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseInfo.php
+[2014-05-07 09:13:33] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-07 09:13:33] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.016991853713989 secs
+[2014-05-07 09:13:36] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:36] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/sellRecord
+[2014-05-07 09:13:36] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-07 09:13:36] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["1","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-07 09:13:36] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-07 09:13:36] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-07 09:13:36] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-07 09:13:36] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/sellRecord.php
+[2014-05-07 09:13:36] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-07 09:13:36] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.022274017333984 secs
+[2014-05-07 09:13:38] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:38] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseDetail
+[2014-05-07 09:13:38] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["18","PARAM_STR"]]
+[2014-05-07 09:13:38] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseDetail.php
+[2014-05-07 09:13:38] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-07 09:13:38] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.018332004547119 secs
+[2014-05-07 09:13:38] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:38] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.woff
+[2014-05-07 09:13:38] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:38] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.ttf
+[2014-05-07 09:13:38] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:38] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.svg
+[2014-05-07 09:13:42] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:42] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/sellRecord
+[2014-05-07 09:13:42] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-07 09:13:42] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["1","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-07 09:13:42] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-07 09:13:42] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-07 09:13:42] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-07 09:13:42] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/sellRecord.php
+[2014-05-07 09:13:42] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-07 09:13:42] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.014720916748047 secs
+[2014-05-07 09:13:43] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:43] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-07 09:13:43] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-07 09:13:43] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-07 09:13:43] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-07 09:13:43] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-07 09:13:43] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.018543004989624 secs
+[2014-05-07 09:13:45] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:45] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/addAdmin
+[2014-05-07 09:13:45] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `admin` where 1 and `username` = ? ]. with Params: [["admin","PARAM_STR"]]
+[2014-05-07 09:13:45] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/addAdmin.php
+[2014-05-07 09:13:45] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-07 09:13:45] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.019037961959839 secs
+[2014-05-07 09:13:46] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:46] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/adminList
+[2014-05-07 09:13:46] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `admin` where 1]. with Params: []
+[2014-05-07 09:13:46] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `admin` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-07 09:13:46] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/adminList.php
+[2014-05-07 09:13:46] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-07 09:13:46] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.019653081893921 secs
+[2014-05-07 09:13:47] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:47] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseInfo
+[2014-05-07 09:13:47] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-07 09:13:47] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-07 09:13:47] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-07 09:13:47] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["33","PARAM_STR"]]
+[2014-05-07 09:13:47] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["31","PARAM_STR"]]
+[2014-05-07 09:13:47] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["34","PARAM_STR"]]
+[2014-05-07 09:13:47] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-07 09:13:47] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-07 09:13:47] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-07 09:13:47] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-07 09:13:47] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["25","PARAM_STR"]]
+[2014-05-07 09:13:47] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-07 09:13:47] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseInfo.php
+[2014-05-07 09:13:47] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-07 09:13:47] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.017033815383911 secs
+[2014-05-07 09:13:49] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:49] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseDetail
+[2014-05-07 09:13:49] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["24","PARAM_STR"]]
+[2014-05-07 09:13:49] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseDetail.php
+[2014-05-07 09:13:49] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-07 09:13:49] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.01167893409729 secs
+[2014-05-07 09:13:49] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:49] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.woff
+[2014-05-07 09:13:49] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:49] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.ttf
+[2014-05-07 09:13:49] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:13:49] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.svg
+[2014-05-07 09:14:43] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 09:14:43] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-07 09:14:43] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-07 09:14:43] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[5,"PARAM_LOB"]]
+[2014-05-07 09:14:43] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-07 09:14:43] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-07 09:14:43] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-07 09:14:43] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-07 09:14:43] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-07 09:14:43] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-07 09:14:43] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.014137029647827 secs
+[2014-05-07 18:51:30] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 18:51:30] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-07 18:51:30] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-07 18:51:30] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[5,"PARAM_LOB"]]
+[2014-05-07 18:51:30] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-07 18:51:30] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-07 18:51:30] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-07 18:51:30] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-07 18:51:30] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-07 18:51:30] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-07 18:51:30] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.099858045578003 secs
+[2014-05-07 18:51:31] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-07 18:51:31] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-07 18:51:32] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-07 18:51:32] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[5,"PARAM_LOB"]]
+[2014-05-07 18:51:32] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-07 18:51:32] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-07 18:51:32] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-07 18:51:32] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-07 18:51:32] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-07 18:51:32] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-07 18:51:32] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.014542102813721 secs
+[2014-05-08 10:06:47] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 10:06:47] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-08 10:06:47] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-08 10:06:47] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[5,"PARAM_LOB"]]
+[2014-05-08 10:06:47] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-08 10:06:47] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-08 10:06:47] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 10:06:47] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 10:06:47] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-08 10:06:47] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-08 10:06:47] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.062307119369507 secs
+[2014-05-08 12:06:53] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 12:06:53] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/doAddAdmin
+[2014-05-08 12:06:53] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.060685873031616 secs
+[2014-05-08 12:07:01] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 12:07:01] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-08 12:07:01] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-08 12:07:01] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[5,"PARAM_LOB"]]
+[2014-05-08 12:07:01] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-08 12:07:01] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-08 12:07:01] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 12:07:01] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 12:07:01] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-08 12:07:01] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-08 12:07:01] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.077520132064819 secs
+[2014-05-08 19:22:48] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:22:48] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-08 19:22:48] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-08 19:22:48] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[5,"PARAM_LOB"]]
+[2014-05-08 19:22:48] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-08 19:22:48] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-08 19:22:48] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 19:22:48] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:22:48] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-08 19:22:48] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-08 19:22:48] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.15011310577393 secs
+[2014-05-08 19:22:50] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:22:50] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/index
+[2014-05-08 19:22:50] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/login/index.php
+[2014-05-08 19:22:50] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-08 19:22:50] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012075901031494 secs
+[2014-05-08 19:23:11] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:23:11] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /register/index
+[2014-05-08 19:23:11] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/register/index.php
+[2014-05-08 19:23:11] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-08 19:23:11] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.021565198898315 secs
+[2014-05-08 19:24:21] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:24:21] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-08 19:24:21] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-08 19:24:21] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[5,"PARAM_LOB"]]
+[2014-05-08 19:24:21] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-08 19:24:21] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-08 19:24:21] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 19:24:21] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:24:21] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-08 19:24:21] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-08 19:24:21] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.015723943710327 secs
+[2014-05-08 19:25:10] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:25:10] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/houseDetail
+[2014-05-08 19:25:10] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["25","PARAM_STR"]]
+[2014-05-08 19:25:10] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:25:10] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/houseDetail.php
+[2014-05-08 19:25:10] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-08 19:25:10] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.021023035049438 secs
+[2014-05-08 19:25:58] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:25:58] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/publish
+[2014-05-08 19:25:58] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/publish.php
+[2014-05-08 19:25:58] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-08 19:25:58] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.016934871673584 secs
+[2014-05-08 19:26:01] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:26:01] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/index
+[2014-05-08 19:26:01] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/login/index.php
+[2014-05-08 19:26:01] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-08 19:26:01] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0074329376220703 secs
+[2014-05-08 19:26:07] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:26:07] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /login/doLogin
+[2014-05-08 19:26:07] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `username` = ? ]. with Params: [["echo","PARAM_STR"]]
+[2014-05-08 19:26:07] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.018596172332764 secs
+[2014-05-08 19:26:07] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:26:07] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/index
+[2014-05-08 19:26:07] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-08 19:26:07] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[5,"PARAM_LOB"]]
+[2014-05-08 19:26:07] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-08 19:26:07] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-08 19:26:07] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 19:26:07] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:26:07] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/index.php
+[2014-05-08 19:26:07] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-08 19:26:07] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.018464088439941 secs
+[2014-05-08 19:26:31] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:26:31] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /default/publish
+[2014-05-08 19:26:31] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/default/publish.php
+[2014-05-08 19:26:31] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-08 19:26:31] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0079331398010254 secs
+[2014-05-08 19:26:57] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:26:57] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /manager/index
+[2014-05-08 19:26:57] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `username` = ? ]. with Params: [["echo","PARAM_STR"]]
+[2014-05-08 19:26:57] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:26:57] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/manager/index.php
+[2014-05-08 19:26:57] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-08 19:26:57] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.020843029022217 secs
+[2014-05-08 19:29:11] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:29:11] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /manager/update
+[2014-05-08 19:29:11] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["25","PARAM_STR"]]
+[2014-05-08 19:29:11] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/manager/update.php
+[2014-05-08 19:29:11] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-08 19:29:11] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0098781585693359 secs
+[2014-05-08 19:29:11] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:29:11] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:29:11] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:29:11] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/javascript/js/jquery.ui.plupload/css/images/ui-bg_flat_75_ffffff_40x100.png
+[2014-05-08 19:29:11] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/javascript/js/jquery.ui.plupload/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+[2014-05-08 19:29:11] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/javascript/js/jquery.ui.plupload/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+[2014-05-08 19:29:11] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:29:11] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/javascript/js/jquery.ui.plupload/css/images/ui-icons_888888_256x240.png
+[2014-05-08 19:29:12] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:29:12] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/javascript/js/jquery.ui.plupload/css/images/ui-icons_454545_256x240.png
+[2014-05-08 19:29:12] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:29:12] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/javascript/js/jquery.ui.plupload/css/images/ui-bg_glass_65_ffffff_1x400.png
+[2014-05-08 19:29:14] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:29:14] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /manager/index
+[2014-05-08 19:29:14] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `username` = ? ]. with Params: [["echo","PARAM_STR"]]
+[2014-05-08 19:29:14] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:29:14] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/manager/index.php
+[2014-05-08 19:29:14] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-08 19:29:14] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011861801147461 secs
+[2014-05-08 19:29:17] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:29:17] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /manager/update
+[2014-05-08 19:29:17] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["25","PARAM_STR"]]
+[2014-05-08 19:29:17] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/manager/update.php
+[2014-05-08 19:29:17] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/default.php
+[2014-05-08 19:29:17] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011598825454712 secs
+[2014-05-08 19:30:40] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:30:40] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/login
+[2014-05-08 19:30:40] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/login.php
+[2014-05-08 19:30:40] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/login.php
+[2014-05-08 19:30:40] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.035055875778198 secs
+[2014-05-08 19:30:45] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:30:45] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/doLogin
+[2014-05-08 19:30:45] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `admin` where 1 and `username` = ? ]. with Params: [["echo","PARAM_STR"]]
+[2014-05-08 19:30:45] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.021393060684204 secs
+[2014-05-08 19:30:45] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:30:45] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseInfo
+[2014-05-08 19:30:45] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-08 19:30:45] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:30:45] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:30:45] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["33","PARAM_STR"]]
+[2014-05-08 19:30:46] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["31","PARAM_STR"]]
+[2014-05-08 19:30:46] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:30:46] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 19:30:46] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 19:30:46] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 19:30:46] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 19:30:46] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["25","PARAM_STR"]]
+[2014-05-08 19:30:46] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:30:46] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseInfo.php
+[2014-05-08 19:30:46] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:30:46] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.01834511756897 secs
+[2014-05-08 19:34:02] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:34:02] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 19:34:02] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 19:34:02] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:34:02] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 19:34:02] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:34:02] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.019615173339844 secs
+[2014-05-08 19:38:04] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:38:04] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseInfo
+[2014-05-08 19:38:04] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-08 19:38:04] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:38:04] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:38:04] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["33","PARAM_STR"]]
+[2014-05-08 19:38:04] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["31","PARAM_STR"]]
+[2014-05-08 19:38:04] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:38:04] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 19:38:04] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 19:38:04] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 19:38:04] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 19:38:04] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["25","PARAM_STR"]]
+[2014-05-08 19:38:04] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:38:04] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseInfo.php
+[2014-05-08 19:38:04] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:38:04] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.017771005630493 secs
+[2014-05-08 19:38:10] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:38:10] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 19:38:10] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 19:38:10] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:38:10] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 19:38:10] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:38:10] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.013482093811035 secs
+[2014-05-08 19:38:11] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:38:11] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/sellRecord
+[2014-05-08 19:38:11] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-08 19:38:11] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["1","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:38:11] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:38:11] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 19:38:11] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-08 19:38:11] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/sellRecord.php
+[2014-05-08 19:38:11] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:38:11] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.022863864898682 secs
+[2014-05-08 19:38:13] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:38:13] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseDetail
+[2014-05-08 19:38:13] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["18","PARAM_STR"]]
+[2014-05-08 19:38:13] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseDetail.php
+[2014-05-08 19:38:13] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:38:13] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.020565986633301 secs
+[2014-05-08 19:38:13] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:38:13] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.woff
+[2014-05-08 19:38:13] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:38:13] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.ttf
+[2014-05-08 19:38:13] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:38:13] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.svg
+[2014-05-08 19:38:15] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:38:15] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/sellRecord
+[2014-05-08 19:38:15] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["1","PARAM_STR"]]
+[2014-05-08 19:38:15] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["1","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:38:15] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:38:15] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 19:38:15] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["21","PARAM_STR"]]
+[2014-05-08 19:38:15] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/sellRecord.php
+[2014-05-08 19:38:15] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:38:15] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.014600992202759 secs
+[2014-05-08 19:38:16] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:38:16] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 19:38:16] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 19:38:16] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:38:16] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 19:38:16] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:38:16] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011669874191284 secs
+[2014-05-08 19:44:52] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:44:52] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 19:44:52] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 19:44:52] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:44:52] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 19:44:52] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:44:52] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011826992034912 secs
+[2014-05-08 19:44:53] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:44:53] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:44:53] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:45:07] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:45:07] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:45:07] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:45:07] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:45:07] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:45:07] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011526823043823 secs
+[2014-05-08 19:45:10] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:45:10] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseInfo
+[2014-05-08 19:45:10] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-08 19:45:10] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:45:10] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:45:10] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["33","PARAM_STR"]]
+[2014-05-08 19:45:10] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["31","PARAM_STR"]]
+[2014-05-08 19:45:10] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:45:10] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 19:45:10] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 19:45:10] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 19:45:10] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 19:45:10] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["25","PARAM_STR"]]
+[2014-05-08 19:45:10] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:45:10] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseInfo.php
+[2014-05-08 19:45:10] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:45:10] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.017658948898315 secs
+[2014-05-08 19:45:12] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:45:12] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseDetail
+[2014-05-08 19:45:12] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["25","PARAM_STR"]]
+[2014-05-08 19:45:12] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseDetail.php
+[2014-05-08 19:45:12] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:45:12] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.013754844665527 secs
+[2014-05-08 19:45:12] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:45:12] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.woff
+[2014-05-08 19:45:12] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:45:12] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.ttf
+[2014-05-08 19:45:12] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:45:12] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.svg
+[2014-05-08 19:45:17] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:45:17] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseInfo
+[2014-05-08 19:45:17] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-08 19:45:17] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:45:17] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:45:17] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["33","PARAM_STR"]]
+[2014-05-08 19:45:17] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["31","PARAM_STR"]]
+[2014-05-08 19:45:17] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:45:17] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 19:45:17] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 19:45:17] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 19:45:17] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 19:45:17] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["25","PARAM_STR"]]
+[2014-05-08 19:45:17] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:45:17] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseInfo.php
+[2014-05-08 19:45:17] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:45:17] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.016108989715576 secs
+[2014-05-08 19:45:37] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:45:37] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 19:45:37] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 19:45:37] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:45:37] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 19:45:37] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:45:37] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011764049530029 secs
+[2014-05-08 19:45:38] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:45:38] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:45:38] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:45:38] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:45:38] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:45:38] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.021173000335693 secs
+[2014-05-08 19:45:54] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:45:54] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:45:54] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:45:54] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:45:54] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:45:54] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.022258043289185 secs
+[2014-05-08 19:46:11] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:46:11] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:46:11] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:46:11] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:46:11] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:46:11] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.024564027786255 secs
+[2014-05-08 19:46:46] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:46:46] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:46:46] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:46:46] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:46:46] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:46:46] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.01470685005188 secs
+[2014-05-08 19:46:56] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:46:56] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:46:56] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:46:56] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:46:56] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:46:56] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.014033079147339 secs
+[2014-05-08 19:47:12] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:47:12] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:47:12] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:47:12] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:47:12] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:47:12] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.021196126937866 secs
+[2014-05-08 19:52:43] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:52:43] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:52:58] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:52:58] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:52:58] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:52:58] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:52:58] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:52:58] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:52:58] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.022607088088989 secs
+[2014-05-08 19:53:12] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:53:12] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:53:12] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:53:12] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:53:12] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:53:12] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:53:12] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.023422002792358 secs
+[2014-05-08 19:53:26] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:53:26] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:53:26] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:53:26] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:53:26] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:53:26] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:53:26] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011247873306274 secs
+[2014-05-08 19:53:43] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:53:43] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:53:43] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:53:43] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:53:43] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:53:43] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:53:43] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011702060699463 secs
+[2014-05-08 19:53:47] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:53:47] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 19:53:47] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 19:53:47] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:53:47] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 19:53:47] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:53:47] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0098700523376465 secs
+[2014-05-08 19:53:49] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:53:49] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:53:49] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:53:49] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:53:49] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:53:49] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:53:49] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011667013168335 secs
+[2014-05-08 19:54:09] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:54:09] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:54:09] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:54:09] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:54:09] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:54:09] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:54:09] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.010487079620361 secs
+[2014-05-08 19:54:14] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:54:14] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseDetail
+[2014-05-08 19:54:14] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["22","PARAM_STR"]]
+[2014-05-08 19:54:14] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseDetail.php
+[2014-05-08 19:54:14] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:54:14] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.010843992233276 secs
+[2014-05-08 19:54:14] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:54:14] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.woff
+[2014-05-08 19:54:14] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:54:14] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.ttf
+[2014-05-08 19:54:14] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:54:14] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.svg
+[2014-05-08 19:54:24] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:54:24] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:54:24] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:54:24] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:54:24] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:54:24] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:54:24] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.013616800308228 secs
+[2014-05-08 19:54:29] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:54:29] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseInfo
+[2014-05-08 19:54:29] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ?]. with Params: [["0","PARAM_STR"]]
+[2014-05-08 19:54:29] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `isSelled` = ? order by  id desc limit ?, ?]. with Params: [["0","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:54:29] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:54:29] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["33","PARAM_STR"]]
+[2014-05-08 19:54:29] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["31","PARAM_STR"]]
+[2014-05-08 19:54:29] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:54:29] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 19:54:29] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 19:54:29] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 19:54:29] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 19:54:29] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["25","PARAM_STR"]]
+[2014-05-08 19:54:29] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `user` where 1 and `id` = ? ]. with Params: [["27","PARAM_STR"]]
+[2014-05-08 19:54:29] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseInfo.php
+[2014-05-08 19:54:29] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:54:29] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.01965594291687 secs
+[2014-05-08 19:54:55] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:54:55] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 19:54:55] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 19:54:55] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:54:55] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 19:54:55] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:54:55] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012393951416016 secs
+[2014-05-08 19:54:58] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:54:58] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:54:58] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:54:58] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:54:58] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:54:58] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:54:58] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012619972229004 secs
+[2014-05-08 19:55:01] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:55:01] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseDetail
+[2014-05-08 19:55:01] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["22","PARAM_STR"]]
+[2014-05-08 19:55:01] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseDetail.php
+[2014-05-08 19:55:01] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:55:01] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.014012098312378 secs
+[2014-05-08 19:55:01] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:55:01] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.woff
+[2014-05-08 19:55:01] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:55:01] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.ttf
+[2014-05-08 19:55:01] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:55:01] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.svg
+[2014-05-08 19:55:03] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:55:03] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:55:03] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:55:03] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:55:03] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:55:03] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:55:03] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012223958969116 secs
+[2014-05-08 19:55:05] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:55:05] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:55:05] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [[null,"PARAM_STR"]]
+[2014-05-08 19:55:05] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [[null,"PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:55:05] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:55:05] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:55:05] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.022339820861816 secs
+[2014-05-08 19:55:12] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:55:12] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:55:12] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:55:12] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:55:12] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:55:12] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:55:12] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.023869037628174 secs
+[2014-05-08 19:57:05] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:57:05] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:57:05] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:57:05] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:57:05] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:57:05] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:57:05] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.020602941513062 secs
+[2014-05-08 19:58:38] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:58:38] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:58:38] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:58:38] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:58:38] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:58:38] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:58:38] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011322021484375 secs
+[2014-05-08 19:58:41] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:58:41] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:58:41] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:58:41] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:58:41] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:58:41] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:58:41] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012821912765503 secs
+[2014-05-08 19:58:42] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:58:42] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:58:42] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:58:42] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:58:42] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:58:42] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:58:42] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012418031692505 secs
+[2014-05-08 19:59:34] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:59:34] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:59:34] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:59:34] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:59:34] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:59:34] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:59:34] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.01245903968811 secs
+[2014-05-08 19:59:36] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:59:36] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:59:36] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 19:59:36] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:59:36] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:59:36] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:59:36] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.010219097137451 secs
+[2014-05-08 19:59:38] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:59:38] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 19:59:38] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 19:59:38] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:59:38] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 19:59:38] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:59:38] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.014492034912109 secs
+[2014-05-08 19:59:40] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:59:40] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:59:40] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 19:59:40] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["29","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:59:40] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:59:40] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:59:40] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012042999267578 secs
+[2014-05-08 19:59:43] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:59:43] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:59:43] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 19:59:43] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["29","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:59:43] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:59:43] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:59:43] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012317895889282 secs
+[2014-05-08 19:59:57] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:59:57] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:59:57] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 19:59:57] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["29","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:59:57] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:59:57] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:59:57] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.010834932327271 secs
+[2014-05-08 19:59:58] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 19:59:58] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 19:59:58] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 19:59:58] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["29","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 19:59:58] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 19:59:58] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 19:59:58] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.01164984703064 secs
+[2014-05-08 20:00:00] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:00] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:00:00] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 20:00:00] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["29","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:00] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:00:00] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:00] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.014418840408325 secs
+[2014-05-08 20:00:01] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:01] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:00:01] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 20:00:01] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["29","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:01] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:00:01] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:01] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.01180100440979 secs
+[2014-05-08 20:00:04] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:04] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseDetail
+[2014-05-08 20:00:04] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["20","PARAM_STR"]]
+[2014-05-08 20:00:04] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseDetail.php
+[2014-05-08 20:00:04] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:04] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.015278100967407 secs
+[2014-05-08 20:00:04] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:04] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.woff
+[2014-05-08 20:00:04] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:04] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.ttf
+[2014-05-08 20:00:04] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:04] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.svg
+[2014-05-08 20:00:08] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:08] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:00:08] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["29","PARAM_STR"]]
+[2014-05-08 20:00:08] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["29","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:08] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:00:08] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:08] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.01201605796814 secs
+[2014-05-08 20:00:10] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:10] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 20:00:10] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 20:00:10] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:10] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 20:00:10] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:10] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.015365123748779 secs
+[2014-05-08 20:00:14] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:14] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:00:14] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["25","PARAM_STR"]]
+[2014-05-08 20:00:14] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["25","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:14] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:00:14] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:14] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011819124221802 secs
+[2014-05-08 20:00:16] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:16] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:00:16] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["25","PARAM_STR"]]
+[2014-05-08 20:00:16] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["25","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:16] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:00:16] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:16] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.01331901550293 secs
+[2014-05-08 20:00:18] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:18] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:00:18] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["25","PARAM_STR"]]
+[2014-05-08 20:00:18] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["25","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:18] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:00:18] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:18] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.0098869800567627 secs
+[2014-05-08 20:00:20] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:20] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 20:00:20] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 20:00:20] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:20] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 20:00:20] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:20] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.013897895812988 secs
+[2014-05-08 20:00:24] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:24] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:00:24] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["22","PARAM_STR"]]
+[2014-05-08 20:00:24] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["22","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:24] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:00:24] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:24] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011043071746826 secs
+[2014-05-08 20:00:27] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:27] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 20:00:27] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 20:00:27] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:27] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 20:00:27] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:27] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.010863065719604 secs
+[2014-05-08 20:00:29] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:29] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:00:29] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 20:00:29] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:29] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:00:29] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:29] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011672019958496 secs
+[2014-05-08 20:00:31] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:31] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 20:00:31] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 20:00:31] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:31] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 20:00:31] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:31] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011833906173706 secs
+[2014-05-08 20:00:33] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:33] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 20:00:33] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 20:00:33] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[10,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:33] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 20:00:33] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:33] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.013182878494263 secs
+[2014-05-08 20:00:35] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:35] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:00:35] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["21","PARAM_STR"]]
+[2014-05-08 20:00:35] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["21","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:35] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:00:35] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:35] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011260032653809 secs
+[2014-05-08 20:00:36] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:36] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 20:00:36] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 20:00:36] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[10,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:36] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 20:00:36] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:36] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.013302087783813 secs
+[2014-05-08 20:00:38] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:38] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 20:00:38] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 20:00:38] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:38] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 20:00:38] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:38] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011339902877808 secs
+[2014-05-08 20:00:39] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:39] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:00:39] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["31","PARAM_STR"]]
+[2014-05-08 20:00:39] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["31","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:39] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:00:39] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:39] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011318922042847 secs
+[2014-05-08 20:00:41] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:41] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 20:00:41] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 20:00:41] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:41] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 20:00:41] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:41] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011709928512573 secs
+[2014-05-08 20:00:42] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:42] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:00:42] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["30","PARAM_STR"]]
+[2014-05-08 20:00:42] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["30","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:42] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:00:42] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:42] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012192010879517 secs
+[2014-05-08 20:00:43] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:43] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 20:00:43] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 20:00:43] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:43] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 20:00:43] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:43] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011075019836426 secs
+[2014-05-08 20:00:45] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:45] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:00:45] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 20:00:45] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["28","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:00:45] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:00:45] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:45] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.01332688331604 secs
+[2014-05-08 20:00:57] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:57] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:00:57] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 20:00:57] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["28","PARAM_STR"],[0,"PARAM_LOB"],[1,"PARAM_LOB"]]
+[2014-05-08 20:00:57] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:00:57] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:57] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012487888336182 secs
+[2014-05-08 20:00:58] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:00:58] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:00:58] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 20:00:58] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["28","PARAM_STR"],[1,"PARAM_LOB"],[1,"PARAM_LOB"]]
+[2014-05-08 20:00:58] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:00:58] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:00:58] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012202024459839 secs
+[2014-05-08 20:01:01] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:01:01] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:01:01] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 20:01:01] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["28","PARAM_STR"],[2,"PARAM_LOB"],[1,"PARAM_LOB"]]
+[2014-05-08 20:01:01] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:01:01] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:01:01] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.014564037322998 secs
+[2014-05-08 20:01:02] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:01:02] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:01:02] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["28","PARAM_STR"]]
+[2014-05-08 20:01:02] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["28","PARAM_STR"],[0,"PARAM_LOB"],[1,"PARAM_LOB"]]
+[2014-05-08 20:01:02] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:01:02] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:01:02] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012881994247437 secs
+[2014-05-08 20:01:21] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:01:21] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 20:01:21] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 20:01:21] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:01:21] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 20:01:21] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:01:21] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.013341188430786 secs
+[2014-05-08 20:01:25] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:01:25] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:01:25] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["32","PARAM_STR"]]
+[2014-05-08 20:01:25] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["32","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:01:25] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:01:25] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:01:25] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.013649940490723 secs
+[2014-05-08 20:03:12] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:03:12] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:03:12] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["32","PARAM_STR"]]
+[2014-05-08 20:03:12] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["32","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:03:12] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:03:12] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:03:12] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012160062789917 secs
+[2014-05-08 20:05:03] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:05:03] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:05:03] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["32","PARAM_STR"]]
+[2014-05-08 20:05:03] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["32","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:05:03] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:05:03] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:05:03] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.021584033966064 secs
+[2014-05-08 20:05:44] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:05:44] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:05:44] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["32","PARAM_STR"]]
+[2014-05-08 20:05:44] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["32","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:05:44] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:05:44] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:05:44] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.01350998878479 secs
+[2014-05-08 20:05:55] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:05:55] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:05:55] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["32","PARAM_STR"]]
+[2014-05-08 20:05:55] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["32","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:05:55] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:05:55] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:05:55] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012628078460693 secs
+[2014-05-08 20:05:58] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:05:58] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 20:05:58] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 20:05:58] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:05:58] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 20:05:58] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:05:58] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012348890304565 secs
+[2014-05-08 20:05:59] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:05:59] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:05:59] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 20:05:59] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:05:59] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:05:59] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:05:59] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.01625394821167 secs
+[2014-05-08 20:06:00] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:06:00] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseDetail
+[2014-05-08 20:06:00] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["22","PARAM_STR"]]
+[2014-05-08 20:06:00] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseDetail.php
+[2014-05-08 20:06:00] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:06:00] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011982917785645 secs
+[2014-05-08 20:06:01] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:06:01] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.woff
+[2014-05-08 20:06:01] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:06:01] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.ttf
+[2014-05-08 20:06:01] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:06:01] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.svg
+[2014-05-08 20:06:02] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:06:02] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:06:02] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["34","PARAM_STR"]]
+[2014-05-08 20:06:02] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["34","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:06:02] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:06:02] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:06:02] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012675046920776 secs
+[2014-05-08 20:06:05] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:06:05] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/userInfo
+[2014-05-08 20:06:05] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1]. with Params: []
+[2014-05-08 20:06:05] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `user` where 1 order by  id desc limit ?, ?]. with Params: [[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:06:05] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/userInfo.php
+[2014-05-08 20:06:05] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:06:05] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012166023254395 secs
+[2014-05-08 20:06:07] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:06:07] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:06:07] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["25","PARAM_STR"]]
+[2014-05-08 20:06:07] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["25","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:06:07] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:06:07] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:06:07] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.012896060943604 secs
+[2014-05-08 20:06:10] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:06:10] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseDetail
+[2014-05-08 20:06:10] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["15","PARAM_STR"]]
+[2014-05-08 20:06:10] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseDetail.php
+[2014-05-08 20:06:10] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:06:10] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011198043823242 secs
+[2014-05-08 20:06:10] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:06:10] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.woff
+[2014-05-08 20:06:10] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:06:10] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.ttf
+[2014-05-08 20:06:11] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:06:11] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.svg
+[2014-05-08 20:06:13] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:06:13] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:06:13] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["25","PARAM_STR"]]
+[2014-05-08 20:06:13] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["25","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:06:13] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:06:13] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:06:13] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.015193939208984 secs
+[2014-05-08 20:08:18] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:08:18] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/houseDetail
+[2014-05-08 20:08:18] [DBG] [Hexagon\system\db\DBAgent->queryOne] SQL: [select * from `houseInfo` where 1 and `id` = ? ]. with Params: [["15","PARAM_STR"]]
+[2014-05-08 20:08:18] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/houseDetail.php
+[2014-05-08 20:08:18] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:08:18] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.011662006378174 secs
+[2014-05-08 20:08:18] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:08:18] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.woff
+[2014-05-08 20:08:18] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:08:18] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.ttf
+[2014-05-08 20:08:18] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:08:18] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /estate/static/fonts/glyphicons-halflings-regular.svg
+[2014-05-08 20:08:35] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:08:35] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:08:35] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["25","PARAM_STR"]]
+[2014-05-08 20:08:35] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["25","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:08:35] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:08:35] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:08:35] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.013883829116821 secs
+[2014-05-08 20:11:51] [DBG] [Hexagon\Framework->initApp] Request for estateSystem start
+[2014-05-08 20:11:51] [DBG] [Hexagon\system\uri\Router->resolveURI] URI: /admin/published
+[2014-05-08 20:11:51] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ?]. with Params: [["25","PARAM_STR"]]
+[2014-05-08 20:11:51] [DBG] [Hexagon\system\db\DBAgent->query] SQL: [select * from `houseInfo` where 1 and `sellerId` = ? order by  id desc limit ?, ?]. with Params: [["25","PARAM_STR"],[0,"PARAM_LOB"],[10,"PARAM_LOB"]]
+[2014-05-08 20:11:51] [DBG] [Hexagon\system\result\Processor->processPAGE] screen path: /Users/zhaoqian/workspace/estate_system/app/view/screen/admin/published.php
+[2014-05-08 20:11:51] [DBG] [Hexagon\system\result\Processor->processPAGE] layout path: /Users/zhaoqian/workspace/estate_system/app/view/layout/admin/default.php
+[2014-05-08 20:11:51] [DBG] [Hexagon\Framework->__destruct] Request estateSystem processed, total time: 0.015336036682129 secs

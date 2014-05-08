@@ -224,11 +224,15 @@ class AdminController extends Controller {
 		
 		if($check) {
 			$map['id'] = $_GET['id'];
+			$data['sellerId'] = $_GET['id'];
 			
 			$userModel = new UserModel();
 			$res = $userModel->delete($map);
 			
-			if($res) {
+			$houseInfo = new HouseinfoModel();
+			$result = $houseInfo->delete($data);
+			
+			if($res && $result) {
 				return self::_alertRedirect("删除成功!");
 			}else {
 				return self::_alertRedirect("删除失败!");
@@ -457,4 +461,29 @@ class AdminController extends Controller {
 		
 		return self::_alertRedirect("欢迎下次登录!", "/admin/login");
 	} 
+	
+	public function published($page = 1) {	
+		$this->redirect();
+		
+		$_SESSION['link'] = "userInfo";
+		
+		static $pageSize = 10;
+		static $orderby = "id desc";
+	
+		$data['sellerId'] = $_GET['id'];
+		$publisher = $_GET['publisher'];
+		
+		$houseInfoModel = new HouseinfoModel();
+		$housesInfo = $houseInfoModel->getListByMap($data);
+		
+		$count = count($housesInfo);
+		$pages = ceil($count / $pageSize);
+		
+		$houses = $houseInfoModel->getListByMap($data, $page, $pageSize, $orderby);
+		
+		self::_bindValue('houses', $houses);
+		self::_bindValue('publisher', $publisher);
+		self::_bindValue('publisherId', $data['sellerId']);
+		self::_bindValue("pages", $pages);
+	}
 }
