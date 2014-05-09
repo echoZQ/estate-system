@@ -10,7 +10,7 @@
   		<td><?php echo $houses[$i]['houseHold'];?></td>
   		<td><?php echo $houses[$i]['houseFloor'];?></td>
   		<td><?php echo $houses[$i]['houseArea'];?></td>
-  		<td><?php if(0 == $houses[$i]['isSelled']) echo "未售出"; else "已售出";?></td>
+  		<td><?php if(0 == $houses[$i]['isSelled']) echo "未售出"; else echo "已售出";?></td>
   		<td>
 	  		<?php if(0 == $houses[$i]['checkPass']) {echo "尚未审核";}
 	  				else if(1 == $houses[$i]['checkPass']) {echo "审核通过";}
